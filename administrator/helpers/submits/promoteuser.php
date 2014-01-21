@@ -1,14 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Spencer
- * Date: 1/18/14
- * Time: 2:43 PM
- */
-?>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/admin.js"></script>
 <?php
+session_start();
+
 // INCLUDE INIT FILE
 include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
 
@@ -17,7 +11,7 @@ $token = escape($_POST['token']);
 $userid = escape($_POST['userid']);
 $type = escape($_POST['type']);
 
-if($token) {
+if(Token::check($token)) {
     $userdata = DB::getInstance();
     // UPDATE THE DATABASE
     try {

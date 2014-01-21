@@ -1,3 +1,4 @@
+<script type="text/javascript" src="js/main.js"></script>
 <?php
 /**
  * Created by PhpStorm.
@@ -5,6 +6,7 @@
  * Date: 1/13/14
  * Time: 5:49 PM
  */
+session_start();
 
 // INCLUDE INIT FILE
 include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
@@ -19,22 +21,6 @@ $firstname = escape($_POST['register_firstname']);
 $lastname = escape($_POST['register_lastname']);
 $password = escape($_POST['register_password']);
 $passwordagain = escape($_POST['register_password_again']);
-
-/*
-$username = "root";
-$password = "mq174023";
-$hostname = "localhost";
-//connection to the database
-$dbhandle = mysql_connect($hostname, $username, $password)
-or die("Unable to connect to MySQL");
-//select a database to work with
-$selected = mysql_select_db("restaurant",$dbhandle)
-or die("Could not select examples");
-$date = date('Y-m-d H:i:s');
-$hashpass = Hash::make($password, $salt);
-$query = "INSERT INTO users (username, password, salt, firstname, lastname, joined, group) VALUES ('$email', 'password', 'salt', '$firstname', '$lastname', '$date', '1')";
-mysql_query($query) or die(mysql_error());
-*/
 
 // REGISTER
 if (Token::check($token)) {
@@ -68,6 +54,12 @@ if (Token::check($token)) {
         <?php
         } else {
             echo '<p>There was a problem logging in.</p>';
+            ?>
+            <script type="text/javascript">
+                // RESET THE PARENT PAGE TOKEN IN ORDER TO VALIDATE ON NEXT TRY
+                $('#token').val('<?php echo Token::generate(); ?>');
+            </script>
+        <?php
         }
     } catch (Exception $e) {
         die($e->getMessage());

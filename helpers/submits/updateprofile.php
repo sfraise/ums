@@ -6,6 +6,7 @@
  * Date: 1/20/14
  * Time: 8:02 PM
  */
+session_start();
 
 // INCLUDE INIT FILE
 include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
@@ -16,14 +17,16 @@ $myid = escape($_POST['myid']);
 $field = escape($_POST['field']);
 $newvalue = escape($_POST['newvalue']);
 
-$user = new User($myid);
+if (Token::check($token)) {
+    $user = new User($myid);
 
-try {
-    $user->update(array(
-        $field => "$newvalue"
-    ), $myid);
-} catch(Exception $e) {
-    die($e->getMessage());
+    try {
+        $user->update(array(
+            $field => "$newvalue"
+        ), $myid);
+    } catch (Exception $e) {
+        die($e->getMessage());
+    }
 }
 
 $user = new User($myid);

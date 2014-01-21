@@ -1,3 +1,4 @@
+<script type="text/javascript" src="js/main.js"></script>
 <?php
 /**
  * Created by PhpStorm.
@@ -5,6 +6,7 @@
  * Date: 1/13/14
  * Time: 8:13 PM
  */
+session_start();
 
 // INCLUDE INIT FILE
 include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
@@ -29,7 +31,13 @@ if(Token::check($token)) {
         </script>
     <?php
     } else {
-        echo '<p>Sorry, that username and password wasn\'t recognised.</p>';
+        echo '<div class="loginerror">Sorry, that username and password wasn\'t recognised.</div>';
+        ?>
+        <script type="text/javascript">
+            // RESET THE PARENT PAGE TOKEN IN ORDER TO VALIDATE ON NEXT TRY
+            $('#token').val('<?php echo Token::generate(); ?>');
+        </script>
+        <?php
     }
 }
 ?>

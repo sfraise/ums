@@ -1,3 +1,4 @@
+<script type="text/javascript" src="js/main.js"></script>
 <?php
 /**
  * Created by PhpStorm.
@@ -5,6 +6,7 @@
  * Date: 1/14/14
  * Time: 5:40 PM
  */
+session_start();
 
 // INCLUDE INIT FILE
 include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
