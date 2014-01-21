@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Restaurant Demo.iws" />
@@ -98,7 +97,7 @@
       <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="129" selection-start="547" selection-end="547" vertical-scroll-proportion="0.23743017" vertical-offset="0" max-vertical-offset="716">
+            <state line="10" column="70" selection-start="488" selection-end="488" vertical-scroll-proportion="0.23743017" vertical-offset="0" max-vertical-offset="716">
               <folding />
             </state>
           </provider>
@@ -547,7 +546,11 @@
       <created>1390343429197</created>
       <updated>1390343429197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added readme.txt">
+      <created>1390343904658</created>
+      <updated>1390343904658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -585,7 +588,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Added sql file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sql file" />
+    <MESSAGE value="Added readme.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added readme.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -713,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="129" selection-start="547" selection-end="547" vertical-scroll-proportion="0.23743017" vertical-offset="0" max-vertical-offset="716">
+        <state line="10" column="70" selection-start="488" selection-end="488" vertical-scroll-proportion="0.23743017" vertical-offset="0" max-vertical-offset="716">
           <folding />
         </state>
       </provider>
