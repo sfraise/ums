@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="" />
+    <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ums.sql.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Restaurant Demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,6 +121,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -146,7 +158,7 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -470,11 +482,11 @@
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo" />
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\update" />
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\logout" />
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\profile" />
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\register" />
-      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\login" />
     </key>
   </component>
   <component name="RunManager">
