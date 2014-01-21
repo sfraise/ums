@@ -1,0 +1,78 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Spencer
+ * Date: 1/18/14
+ * Time: 2:43 PM
+ */
+?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/admin.js"></script>
+<?php
+// INCLUDE INIT FILE
+include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
+
+// GET VALUES
+$token = escape($_POST['token']);
+$userid = escape($_POST['userid']);
+$type = escape($_POST['type']);
+
+if($token) {
+    $userdata = DB::getInstance();
+    // UPDATE THE DATABASE
+    try {
+        $userdata->query("UPDATE users SET user_group = '$type' WHERE id = $userid");
+
+        if ($type == 2) {
+            $thisusertype = 'Super Administrator';
+            $thisuserpromote = "
+                            <div id=\"amu_promote_select_wrapper_".$userid."\">
+                            <select id=\"amu_promote_select_".$thisuserid."\" rel=\"".$userid."\" class=\"amu_promote_select\">
+                                <option selected = \"selected\" value=\"\">Promote or Demote</option>
+                                <option value=\"3\">Demote to Administrator</option>
+                                <option value=\"4\">Demote to Moderator</option>
+                                <option value=\"1\">Demote to Registered</option>
+                            </select>
+                            </div>";
+        } elseif ($type == 3) {
+            $thisusertype = 'Administrator';
+            $thisuserpromote = "
+                            <div id=\"amu_promote_select_wrapper_".$userid."\">
+                            <select id=\"amu_promote_select_".$userid."\" rel=\"".$userid."\" class=\"amu_promote_select\">
+                                <option selected = \"selected\" value=\"\">Promote or Demote</option>
+                                <option value=\"2\">Promote to Super Administrator</option>
+                                <option value=\"4\">Demote to Moderator</option>
+                                <option value=\"1\">Demote to Registered</option>
+                            </select>
+                            </div>";
+        } elseif ($type == 4) {
+            $thisusertype = 'Moderator';
+            $thisuserpromote = "
+                            <div id=\"amu_promote_select_wrapper_".$userid."\">
+                            <select id=\"amu_promote_select_".$userid."\" rel=\"".$userid."\" class=\"amu_promote_select\">
+                                <option selected = \"selected\" value=\"\">Promote or Demote</option>
+                                <option value=\"2\">Promote to Super Administrator</option>
+                                <option value=\"3\">Promote to Administrator</option>
+                                <option value=\"1\">Demote to Registered</option>
+                            </select>
+                            </div>";
+        } else {
+            $thisusertype = 'Registered';
+            $thisuserpromote = "
+                            <div id=\"amu_promote_select_wrapper_".$userid."\">
+                            <select id=\"amu_promote_select_".$userid."\" rel=\"".$userid."\" class=\"amu_promote_select\">
+                                <option selected = \"selected\" value=\"\">Promote or Demote</option>
+                                <option value=\"2\">Promote to Super Administrator</option>
+                                <option value=\"3\">Promote to Administrator</option>
+                                <option value=\"4\">Promote to Moderator</option>
+                            </select>
+                            </div>";
+        }
+        echo $thisuserpromote;
+    } catch(Exception $e) {
+        die($e->getMessage());
+    }
+} else {
+    echo 'The token is invalid';
+}
+?>

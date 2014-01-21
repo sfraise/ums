@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4159754854">
+    <data-source source="LOCAL" name="Restaurant" uuid="37bb070b-8475-4738-849d-ca6558985ed5">
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/restaurant</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dfdbdf9bdf9ddf9edf9adf98df99</user-password>
+      <schema-pattern>restaurant.*</schema-pattern>
+      <default-schemas>restaurant.*</default-schemas>
+      <libraries>
+        <library>
+          <url>jar://$PROJECT_DIR$/mysql-connector-java-5.1.26-bin.jar!/</url>
+        </library>
+        <library>
+          <url>file://$PROJECT_DIR$/mysql-connector-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
