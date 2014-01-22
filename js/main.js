@@ -69,6 +69,16 @@ $(document).ready(function() {
     });
 
     /*** EDIT PROFILE ***/
+    // IMAGE UPLOAD TOGGLE
+    $('#profile_img_upload_area').click(function () {
+        $('#profileimguploadform').show();
+        $('#profile_img_upload_area').hide();
+    });
+    $('#profile_img_upload_cancel').click(function () {
+        $('#profileimguploadform').hide();
+        $('#profile_img_upload_area').show();
+    });
+
     // SHOW FIELD INPUT
     $('span[id^=my_profile_field_]').on('click', function() {
         var field = $(this).attr('rel');

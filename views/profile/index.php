@@ -1,5 +1,5 @@
+<script type="text/javascript" src="/js/image_upload/scripts/ajaxupload.js"></script>
 <?php
-
 if(!$username = Input::get('user')) {
 	Redirect::to('index.php');
 } else {
@@ -16,11 +16,54 @@ if(!$username = Input::get('user')) {
 
     // FORMAT THE MEMBER SINCE DATE
     $membersince = date('F jS, Y', strtotime($data->joined));
+
+    // GET THE USER'S IMAGE PATH
+    $userimage = $data->image;
+    if(!$userimage) {
+        $userimage = '/images/user_images/default.jpg';
+    }
 	?>
 
 	<h3><?php echo escape($data->username); ?></h3>
     <p>Member since: <?php echo $membersince; ?></p>
     <p>User Type: <?php echo $usertype; ?></p><br /><br />
+
+    <!-- USER IMAGE/UPLOAD FORM -->
+    <div id="profile_image_wrapper">
+        <img class="profile_image" src="<?php echo $userimage; ?>"/>
+
+        <!-- SHOW IMAGE UPLOAD OPTION IF USER'S PROFILE -->
+        <?php if ($userid == $myid) { ?>
+            <div id="profileimguploadform" style="display:none;position:absolute;">
+                <?php $newrelpath = "" . $_SERVER['DOCUMENT_ROOT'] . "/images/user_images/".$myid."/"; ?>
+                <form action="/js/image_upload/scripts/profileupload.php" method="POST"
+                      name="unobtrusive" id="unobtrusive" enctype="multipart/form-data">
+                    <input type="hidden" name="maxSize" value="9999999999"/>
+                    <input type="hidden" name="maxW" value="250"/>
+                    <input type="hidden" name="fullPath" value="/images/user_images/<?php echo $myid; ?>/"/>
+                    <input type="hidden" name="relPath" value="<?php echo $newrelpath; ?>"/>
+                    <input type="hidden" name="colorR" value="255"/>
+                    <input type="hidden" name="colorG" value="255"/>
+                    <input type="hidden" name="colorB" value="255"/>
+                    <input type="hidden" name="maxH" value="250"/>
+                    <input type="hidden" name="filename" value="filename"/>
+                    <input type="hidden" name="profileimage" value="<?php echo $userimage; ?>"/>
+
+                    <span class="profile_img_upload_buttons"><label for="filename"><img id="profile_img_upload_submit"
+                                                                                 src="/js/image_upload/images/upload.png"
+                                                                                 alt="Upload" title="Upload"/></label><input
+                            type="file" name="filename" id="filename" class="profileimginput" value="filename"
+                            onchange="ajaxUpload(this.form,'/js/image_upload/scripts/profileupload.php?filename=filename&amp;maxSize=9999999999&amp;maxW=250&amp;fullPath=images/user_images/<?php echo $myid; ?>&amp;relPath=<?php echo $newrelpath; ?>&amp;colorR=255&amp;colorG=255&amp;colorB=255&amp;maxH=250&amp;profileimage=<?php echo $userimage; ?>&amp;myid=<?php echo $myid; ?>&amp;token=<?php echo Token::generate(); ?>','profile_img_upload_area','File Uploading Please Wait...&lt;br /&gt;&lt;img src=\'/images/loading/loading2.gif\' border=\'0\' /&gt;','&lt;img src=\'/js/image_upload/images/error.gif\' width=\'16\' height=\'16\' border=\'0\' /&gt; Error in Upload, check settings and path info in source code.');$('#profileimguploadform').hide(); return false;"/><img
+                            id="profile_img_upload_cancel" src="/js/image_upload/images/cancel.png" alt="Cancel"
+                            title="Cancel"/>
+                    <p style="clear:both;"></p></span>
+                </form>
+            </div>
+            <div id="profile_img_upload_area">
+                Update Image
+            </div>
+        <?php } ?>
+    </div>
 
     <div class="userprofile">
 	    <div class="profile_fields">
