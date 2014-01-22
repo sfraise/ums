@@ -1,5 +1,12 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <?php
+/**
+ * Created by PhpStorm.
+ * User: Spencer
+ * Date: 1/21/14
+ * Time: 8:27 PM
+ */
+
 session_start();
 
 // INCLUDE INIT FILE
@@ -7,7 +14,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
 
 // Get Values
 $myid = escape($_GET['myid']);
-$profileimage = escape($_GET['profileimage']);
+$sitelogo = escape($_GET['sitelogo']);
 $token = escape($_GET['token']);
 
 if (Token::check($token)) {
@@ -191,9 +198,16 @@ if (Token::check($token)) {
     }
 
     if ($imgUploaded) {
-        $user = new User($myid);
-        $userdata = $user->data();
-        $oldimage = $userdata->image;
+// GET SITE DATA
+        $sitedata = DB::getInstance();
+        $getsitedata = $sitedata->query('SELECT * FROM site_data');
+        if(!$getsitedata->count()) {
+            echo 'error';
+        } else {
+            foreach($getsitedata->results() as $siteinfo) {
+                $oldimage = $siteinfo->logo;
+            }
+        }
         if($oldimage) {
             unlink($_SERVER['DOCUMENT_ROOT'] . $oldimage);
         }
@@ -203,15 +217,14 @@ if (Token::check($token)) {
         $myfileext = pathinfo($myfilenameraw, PATHINFO_EXTENSION);
         $myfilenamens = $myfilenamefront . "_" . $NUM . "." . $myfileext;
         $myfilename = strtolower(str_replace(' ', '_', $myfilenamens));
-        $myimgpath = "/images/user_images/" . $myid . "/" . $myfilename . "";
+        $myimgpath = "/images/" . $myfilename . "";
 
+        // UPDATE THE DATABASE
         try {
-            $user->update(array(
-                'image' => "$myimgpath"
-            ), $myid);
+            $sitedata->query("UPDATE site_data SET image = '$myimgpath' WHERE id = 1");
             ?>
             <script type="text/javascript">
-                $(".profile_image", parent.window.document).attr("src", "<?php echo $myimgpath; ?>");
+                $(".site_logo", parent.window.document).attr("src", "<?php echo $myimgpath; ?>");
             </script>
             <?php
             echo 'Update Image';
@@ -225,8 +238,8 @@ if (Token::check($token)) {
         }
     }
 
-    $divid = "profile_image";
-    $uploadarea = "profile_img_upload_area";
+    $divid = "site_logo";
+    $uploadarea = "logo_img_upload_area";
 } else {
     echo 'Token validation failed!';
 }

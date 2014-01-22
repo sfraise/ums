@@ -30,7 +30,7 @@ if(!$username = Input::get('user')) {
 
     <!-- USER IMAGE/UPLOAD FORM -->
     <div id="profile_image_wrapper">
-        <img class="profile_image" src="<?php echo $userimage; ?>"/>
+        <img class="profile_image" src="<?php echo $userimage; ?>" alt="Profile Image"/>
 
         <!-- SHOW IMAGE UPLOAD OPTION IF USER'S PROFILE -->
         <?php if ($userid == $myid) { ?>
