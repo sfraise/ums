@@ -15,6 +15,7 @@ time, mark, audio, video {
     padding:0;
     border:0;
     outline: none;
+    font-family: arial;
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
@@ -149,9 +150,22 @@ body {
 }
 
 /*** PROFILE STYLES ***/
+.userprofile {
+}
+
+.userprofileleft {
+    float: left;
+}
+
+.userprofileright {
+    float: right;
+    width: 500px;
+}
+
 /* USER IMAGE */
 #profile_image_wrapper {
     position: relative;
+    padding-right: 10px;
 }
 
 .profile_image {

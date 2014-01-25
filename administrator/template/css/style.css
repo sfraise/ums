@@ -15,6 +15,7 @@ time, mark, audio, video {
     padding:0;
     border:0;
     outline:none;
+    font-family: arial;
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
@@ -137,6 +138,34 @@ body {
     margin-top: 15px;
 }
 
+/*** CONFIG STYLES ***/
+.admin_config {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.admin_config_verify {
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
+.admin_config_verify_label {
+    float: left;
+}
+
+#admin_config_verify_button {
+    float: right;
+    cursor: pointer;
+    border: 1px solid #686868;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+}
+
 /*** UPDATE SITE INFO STYLES ***/
 /* SITE LOGO */
 #update_logo_wrapper {
@@ -183,6 +212,21 @@ body {
     cursor: pointer;
 }
 
+/*** MANAGE USERS STYLES ***/
+.admin_manage_user {
+    border-bottom: 1px solid #eee;
+    width: 600px;
+    padding: 5px;
+}
+
+.amu_promote_select_wrapper {
+    display: none;
+}
+
+.amu_prodem {
+    float: right;
+    cursor: pointer;
+}
 
 .footer {
     text-align: center;

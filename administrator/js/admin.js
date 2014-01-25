@@ -23,6 +23,27 @@ $(document).ready(function () {
         return false;
     });
 
+    /*** CONFIG SECTION ***/
+    // SET VERIFICATION OPTION
+    $('#admin_config_verify_button').click(function() {
+        var token = $('#token').val();
+
+        $('#admin_config_veirfy_button').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: 'helpers/submits/verify.php',
+            type: 'POST',
+            data: {token: token},
+            success: function (data) {
+                $('#admin_config_verify_button').html(data);
+            },
+            error: function (errorThrown) {
+                $('#admin_config_verify_button').html(errorThrown);
+            }
+        });
+        return false;
+    });
+
+    /*** SITE INFO SECTION ***/
     // LOGO UPLOAD TOGGLE
     $('#update_logo_upload_area').click(function () {
         $('#updatelogouploadform').show();
@@ -31,6 +52,14 @@ $(document).ready(function () {
     $('#update_logo_upload_cancel').click(function () {
         $('#updatelogouploadform').hide();
         $('#update_logo_upload_area').show();
+    });
+
+    /*** MANAGE MEMBERS ***/
+    // MANAGE MEMBERS SHOW/HIDE PROMOTE/DEMOTE SELECT BOX
+    $('a[id^=amu_prodem_]').click(function() {
+        var userid = $(this).attr('rel');
+
+        $('#amu_promote_select_wrapper_' + userid).show();
     });
 
     // MANAGE MEMBERS PROMOTE/DEMOTE
@@ -62,5 +91,12 @@ $(document).ready(function () {
             }
         });
         return false;
+    });
+
+    // MANAGE MEMBERS SHOW/HIDE PROMOTE/DEMOTE SELECT BOX
+    $('a[id^=amu_promote_select_close_]').click(function() {
+        var userid = $(this).attr('rel');
+
+        $('#amu_promote_select_wrapper_' + userid).hide();
     });
 });

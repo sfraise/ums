@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/views/config/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/helpers/submits/verify.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/js/admin.js" afterPath="$PROJECT_DIR$/administrator/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/index.php" afterPath="$PROJECT_DIR$/administrator/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/sitedata/index.php" afterPath="$PROJECT_DIR$/administrator/views/sitedata/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/image_upload/scripts/logoupload.php" afterPath="$PROJECT_DIR$/js/image_upload/scripts/logoupload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/config/index.php" afterPath="$PROJECT_DIR$/administrator/views/config/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/users/index.php" afterPath="$PROJECT_DIR$/administrator/views/users/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile/index.php" afterPath="$PROJECT_DIR$/views/profile/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php" afterPath="$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/css/style.css" afterPath="$PROJECT_DIR$/administrator/template/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/template.php" afterPath="$PROJECT_DIR$/administrator/template/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/template.php" afterPath="$PROJECT_DIR$/template/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css/style.css" afterPath="$PROJECT_DIR$/template/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Restaurant Demo.iws" />
@@ -42,8 +41,28 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="20" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0" vertical-offset="2871" max-vertical-offset="5780">
+            <state line="161" column="17" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="6018">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/profile/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="138" column="39" selection-start="6985" selection-end="6985" vertical-scroll-proportion="0.80487806" vertical-offset="1818" max-vertical-offset="2516">
+              <folding>
+                <element signature="e#1230#1269#0" expanded="true" />
+                <element signature="e#3990#4009#0" expanded="true" />
+                <element signature="e#4639#4658#0" expanded="true" />
+                <element signature="e#5020#5039#0" expanded="true" />
+                <element signature="e#5388#5407#0" expanded="true" />
+                <element signature="e#5759#5778#0" expanded="true" />
+                <element signature="e#6136#6155#0" expanded="true" />
+                <element signature="e#6510#6529#0" expanded="true" />
+                <element signature="e#6885#6904#0" expanded="true" />
+                <element signature="e#6959#6978#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +70,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="0" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.0" vertical-offset="2779" max-vertical-offset="5389">
+            <state line="162" column="23" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0" vertical-offset="2296" max-vertical-offset="6137">
               <folding />
             </state>
           </provider>
@@ -60,7 +79,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="631" selection-end="1149" vertical-scroll-proportion="-6.269231" vertical-offset="245" max-vertical-offset="935">
+            <state line="29" column="0" selection-start="631" selection-end="1149" vertical-scroll-proportion="-6.923077" vertical-offset="228" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -78,34 +97,25 @@
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/views/sitedata/index.php">
+        <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="465" selection-start="2358" selection-end="2358" vertical-scroll-proportion="-11.5" vertical-offset="211" max-vertical-offset="867">
+            <state line="11" column="18" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#span#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1390687625168" expanded="true" signature="393:625" placeholder="..." />
+                <marker date="1390687625168" expanded="true" signature="431:625" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logoupload.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/logoupload.php">
+      <file leaf-file-name="verify.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/verify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="35" selection-start="9822" selection-end="9822" vertical-scroll-proportion="0.049689442" vertical-offset="3691" max-vertical-offset="4335">
+            <state line="42" column="18" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-14.769231" vertical-offset="330" max-vertical-offset="1020">
               <folding>
-                <element signature="e#90#172#0" expanded="true" />
-                <marker date="1390622833678" expanded="false" signature="10500:10519" placeholder="..." />
+                <marker date="1390687605728" expanded="true" signature="1191:1266" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxupload.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/ajaxupload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="82" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -122,7 +132,7 @@
       <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+            <state line="34" column="19" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1819">
               <folding />
             </state>
           </provider>
@@ -146,22 +156,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/helpers/submits/updateprofile.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/js/image_upload/scripts/ajaxupload.php" />
-        <option value="$PROJECT_DIR$/template/css/style.css" />
-        <option value="$PROJECT_DIR$/views/profile/index.php" />
         <option value="$PROJECT_DIR$/js/image_upload/scripts/profileupload.php" />
-        <option value="$PROJECT_DIR$/administrator/template/css/style.css" />
-        <option value="$PROJECT_DIR$/administrator/js/admin.js" />
-        <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
         <option value="$PROJECT_DIR$/administrator/template/template.php" />
         <option value="$PROJECT_DIR$/js/image_upload/scripts/ajaxupload.js" />
         <option value="$PROJECT_DIR$/administrator/views/sitedata/index.php" />
-        <option value="$PROJECT_DIR$/administrator/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/template/template.php" />
         <option value="$PROJECT_DIR$/js/image_upload/scripts/logoupload.php" />
+        <option value="$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php" />
+        <option value="$PROJECT_DIR$/administrator/views/users/index.php" />
+        <option value="$PROJECT_DIR$/administrator/index.php" />
+        <option value="$PROJECT_DIR$/administrator/js/admin.js" />
+        <option value="$PROJECT_DIR$/administrator/helpers/submits/verify.php" />
+        <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
+        <option value="$PROJECT_DIR$/administrator/template/css/style.css" />
+        <option value="$PROJECT_DIR$/template/css/style.css" />
+        <option value="$PROJECT_DIR$/views/profile/index.php" />
       </list>
     </option>
   </component>
@@ -359,6 +369,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,7 +684,11 @@
       <created>1390358548333</created>
       <updated>1390358548333</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added site logo upload function">
+      <created>1390623036245</created>
+      <updated>1390623036245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -653,16 +729,29 @@
     <MESSAGE value="Added readme.txt" />
     <MESSAGE value="Updated token checks" />
     <MESSAGE value="Added profile image functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added profile image functionality" />
+    <MESSAGE value="Added site logo upload function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added site logo upload function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/css/style.css">
+    <entry file="file://$PROJECT_DIR$/template/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="20" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0" vertical-offset="2871" max-vertical-offset="5780">
-          <folding />
+        <state line="19" column="56" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3109756" vertical-offset="119" max-vertical-offset="1071">
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/logoupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="35" selection-start="9822" selection-end="9822" vertical-scroll-proportion="-0.627451" vertical-offset="3691" max-vertical-offset="4335">
+          <folding>
+            <element signature="e#90#172#0" expanded="true" />
+            <marker date="1390622833678" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,66 +762,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
+    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="114" selection-end="114" vertical-scroll-proportion="0.22869955" vertical-offset="0" max-vertical-offset="669">
-          <folding>
-            <element signature="e#6#88#0" expanded="false" />
-          </folding>
+        <state line="35" column="0" selection-start="868" selection-end="1066" vertical-scroll-proportion="0.6696562" vertical-offset="147" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/users/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="223" selection-start="4421" selection-end="4442" vertical-scroll-proportion="-12.538462" vertical-offset="796" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/updatesitedata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="390" selection-end="718" vertical-scroll-proportion="0.4573991" vertical-offset="0" max-vertical-offset="669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="3941" selection-end="4123" vertical-scroll-proportion="0.6831091" vertical-offset="716" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="631" selection-end="1149" vertical-scroll-proportion="-6.923077" vertical-offset="228" max-vertical-offset="935">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+        <state line="34" column="19" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1819">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/update/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3094">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/profileupload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="23" selection-start="8945" selection-end="8945" vertical-scroll-proportion="4.5695066" vertical-offset="207" max-vertical-offset="4097">
-          <folding>
-            <marker date="1390359854795" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/profile/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/ajaxupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="82" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/sitedata/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="465" selection-start="2358" selection-end="2358" vertical-scroll-proportion="-11.5" vertical-offset="211" max-vertical-offset="867">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#span#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,42 +813,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.593423" vertical-offset="317" max-vertical-offset="986">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/checkmark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/index.php">
+    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/verify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="631" selection-end="1149" vertical-scroll-proportion="-6.269231" vertical-offset="245" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3109756" vertical-offset="119" max-vertical-offset="1071">
+        <state line="42" column="18" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-14.769231" vertical-offset="330" max-vertical-offset="1020">
           <folding>
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1390687605728" expanded="true" signature="1191:1266" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1390687625168" expanded="true" signature="393:625" placeholder="..." />
+            <marker date="1390687625168" expanded="true" signature="431:625" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="0" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.0" vertical-offset="2779" max-vertical-offset="5389">
+        <state line="162" column="23" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0" vertical-offset="2296" max-vertical-offset="6137">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/logoupload.php">
+    <entry file="file://$PROJECT_DIR$/template/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="35" selection-start="9822" selection-end="9822" vertical-scroll-proportion="0.049689442" vertical-offset="3691" max-vertical-offset="4335">
+        <state line="161" column="17" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="6018">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="39" selection-start="6985" selection-end="6985" vertical-scroll-proportion="0.80487806" vertical-offset="1818" max-vertical-offset="2516">
           <folding>
-            <element signature="e#90#172#0" expanded="true" />
-            <marker date="1390622833678" expanded="false" signature="10500:10519" placeholder="..." />
+            <element signature="e#1230#1269#0" expanded="true" />
+            <element signature="e#3990#4009#0" expanded="true" />
+            <element signature="e#4639#4658#0" expanded="true" />
+            <element signature="e#5020#5039#0" expanded="true" />
+            <element signature="e#5388#5407#0" expanded="true" />
+            <element signature="e#5759#5778#0" expanded="true" />
+            <element signature="e#6136#6155#0" expanded="true" />
+            <element signature="e#6510#6529#0" expanded="true" />
+            <element signature="e#6885#6904#0" expanded="true" />
+            <element signature="e#6959#6978#0" expanded="true" />
           </folding>
         </state>
       </provider>
