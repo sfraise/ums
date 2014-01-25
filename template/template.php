@@ -17,7 +17,7 @@
 <div class="pagewrapper">
     <div class="header">
         <div class="logo">
-            <a href="index.php">LOGO</a>
+            <a href="index.php"><?php echo $sitelogo; ?></a>
         </div>
         <div class="logreg">
             <?php

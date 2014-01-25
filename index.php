@@ -26,13 +26,19 @@ if(!$user->exists()) {
 }
 
 // GET SITE DATA
-$sitedata = DB::getInstance()->query('SELECT * FROM site_data');
+$sitedata = DB::getInstance();
+$sitedata->query('SELECT * FROM site_data');
 if(!$sitedata->count()) {
     echo 'error';
 } else {
     foreach($sitedata->results() as $siteinfo) {
         $sitename = $siteinfo->name;
         $sitedescription = $siteinfo->description;
+        $logo = $siteinfo->logo;
+        if(!$logo) {
+            $logo = '/images/logo/defaultlogo.jpg';
+        }
+        $sitelogo = "<img id=\"site_logo\" src=\"".$logo."\" alt=\"".$sitename."\" title=\"".$sitename."\" />";
     }
 }
 

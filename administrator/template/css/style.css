@@ -137,7 +137,51 @@ body {
     margin-top: 15px;
 }
 
-/* MANAGE USERS STYLES */
+/*** UPDATE SITE INFO STYLES ***/
+/* SITE LOGO */
+#update_logo_wrapper {
+    position: relative;
+}
+
+.update_logo {
+    width: 250px;
+    box-shadow: rgba(170, 170, 170, 0.5) 3px 3px 10px;
+    -webkit-box-shadow: rgba(170, 170, 170, 0.5) 3px 3px 10px;
+    -moz-box-shadow: rgba(170, 170, 170, 0.5) 3px 3px 10px;
+}
+
+#update_logo_upload_area {
+    position: absolute;
+    margin: -20px 0px 0px 150px;
+    color: #fff;
+    text-shadow: -1px 0 #6c6c6c, 0 1px #6c6c6c, 1px 0 #6c6c6c, 0 -1px #6c6c6c;
+    cursor: pointer;
+}
+
+.update_logo_upload_buttons {
+    background: url('/js/image_upload/images/imguploadbk.png') repeat-x;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 17px;
+    width: 200px;
+    padding: 3px;
+}
+
+#update_logo_upload_submit {
+    float: left;
+    color: #fff;
+    text-shadow: -1px 0 #6c6c6c, 0 1px #6c6c6c, 1px 0 #6c6c6c, 0 -1px #6c6c6c;
+    cursor: pointer;
+}
+
+.updatelogoinput {
+    display: none;
+}
+
+#update_logo_upload_cancel {
+    float: right;
+    cursor: pointer;
+}
 
 
 .footer {

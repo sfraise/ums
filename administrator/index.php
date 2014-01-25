@@ -36,6 +36,11 @@ if(!$sitedata->count()) {
     foreach($sitedata->results() as $siteinfo) {
         $sitename = $siteinfo->name;
         $sitedescription = $siteinfo->description;
+        $logo = $siteinfo->logo;
+        if(!$logo) {
+            $logo = '/images/logo/defaultlogo.jpg';
+        }
+        $sitelogo = "<img id=\"site_logo\" src=\"".$logo."\" alt=\"".$sitename."\" title=\"".$sitename."\" />";
     }
 }
 

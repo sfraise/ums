@@ -217,14 +217,15 @@ if (Token::check($token)) {
         $myfileext = pathinfo($myfilenameraw, PATHINFO_EXTENSION);
         $myfilenamens = $myfilenamefront . "_" . $NUM . "." . $myfileext;
         $myfilename = strtolower(str_replace(' ', '_', $myfilenamens));
-        $myimgpath = "/images/" . $myfilename . "";
+        $myimgpath = "/images/logo/" . $myfilename . "";
 
         // UPDATE THE DATABASE
         try {
-            $sitedata->query("UPDATE site_data SET image = '$myimgpath' WHERE id = 1");
+            $sitedata->query("UPDATE site_data SET logo = '$myimgpath' WHERE id = 1");
             ?>
             <script type="text/javascript">
-                $(".site_logo", parent.window.document).attr("src", "<?php echo $myimgpath; ?>");
+                $(".update_logo", parent.window.document).attr("src", "<?php echo $myimgpath; ?>");
+                $("#site_logo", parent.window.document).attr("src", "<?php echo $myimgpath; ?>");
             </script>
             <?php
             echo 'Update Image';
@@ -238,8 +239,8 @@ if (Token::check($token)) {
         }
     }
 
-    $divid = "site_logo";
-    $uploadarea = "logo_img_upload_area";
+    $divid = "update_logo";
+    $uploadarea = "update_logo_upload_area";
 } else {
     echo 'Token validation failed!';
 }

@@ -17,7 +17,7 @@
 <div class="pagewrapper">
     <div class="header">
         <div class="logo">
-            <a href="../index.php">LOGO</a> - Admin
+            <a href="../index.php"><?php echo $sitelogo; ?></a>
         </div>
         <div class="logreg">
             <?php
@@ -49,7 +49,7 @@
         <?php if ($user->isLoggedIn()) { ?>
             <?php if($user->hasPermission('mod')) { ?>
                 <div class="admintopmenu">
-                    <a href="index.php">Admin Home</a> - <a href="index.php?option=sitedata">Edit Site Info</a> - <a href="index.php?option=users">Manage Users</a>
+                    <a href="index.php">Admin Home</a> - <a href="index.php?option=config">Site Config</a> - <a href="index.php?option=sitedata">Edit Site Info</a> - <a href="index.php?option=users">Manage Users</a>
                 </div>
                 <div class="adminmainbody">
                     <div class="adminmainbody">

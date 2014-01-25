@@ -23,6 +23,16 @@ $(document).ready(function () {
         return false;
     });
 
+    // LOGO UPLOAD TOGGLE
+    $('#update_logo_upload_area').click(function () {
+        $('#updatelogouploadform').show();
+        $('#update_logo_upload_area').hide();
+    });
+    $('#update_logo_upload_cancel').click(function () {
+        $('#updatelogouploadform').hide();
+        $('#update_logo_upload_area').show();
+    });
+
     // MANAGE MEMBERS PROMOTE/DEMOTE
     $('select[id^=amu_promote_select_]').on('change', function () {
         var token = $('#token').val();
