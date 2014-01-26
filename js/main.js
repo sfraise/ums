@@ -68,6 +68,28 @@ $(document).ready(function() {
         return false;
     });
 
+    // RESET PASSWORD
+    $('#resetpass_submit').click(function () {
+        var token = $('#token').val();
+        var userid = $('#resetpass_input_userid').val();
+        var newpass = $('#resetpass_input_newpass').val();
+
+        $('#resetpass_message').html('<img class="profile_change_password_loading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/views/resetpassword/helpers/resetpass.php',
+            type: 'POST',
+            data: {token: token, userid: userid, newpass: newpass},
+            success: function (data) {
+                $('#resetpass_message').html(data);
+                $('#resetpass_input_newpass').val('');
+            },
+            error: function (errorThrown) {
+                $('#resetpass_message').html(errorThrown);
+            }
+        });
+        return false;
+    });
+
     /*** EDIT PROFILE ***/
     // SHOW CHANGE PASSWORD INPUT
     $('#profile_change_password').click(function() {

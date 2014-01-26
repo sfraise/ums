@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile/helpers/changepass.php" afterPath="$PROJECT_DIR$/views/profile/helpers/changepass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile/index.php" afterPath="$PROJECT_DIR$/views/profile/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/resetpassword/index.php" afterPath="$PROJECT_DIR$/views/resetpassword/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile/helpers/updateprofile.php" afterPath="$PROJECT_DIR$/views/profile/helpers/updateprofile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Restaurant Demo.iws" />
@@ -55,33 +54,8 @@
       <file leaf-file-name="changepass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/changepass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="58" selection-start="142" selection-end="142" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="697">
+            <state line="0" column="0" selection-start="0" selection-end="142" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/profile/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="37" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-9.5" vertical-offset="365" max-vertical-offset="2652">
-              <folding>
-                <element signature="e#1745#1784#0" expanded="true" />
-                <element signature="e#4505#4524#0" expanded="true" />
-                <element signature="e#5154#5173#0" expanded="true" />
-                <element signature="e#5535#5554#0" expanded="true" />
-                <element signature="e#5903#5922#0" expanded="true" />
-                <element signature="e#6274#6293#0" expanded="true" />
-                <element signature="e#6651#6670#0" expanded="true" />
-                <element signature="e#7025#7044#0" expanded="true" />
-                <element signature="e#7400#7419#0" expanded="true" />
-                <element signature="e#7474#7493#0" expanded="true" />
-                <marker date="1390703868109" expanded="true" signature="1784:1843" placeholder="..." />
-                <marker date="1390703868109" expanded="true" signature="1999:3608" placeholder="..." />
-                <marker date="1390703868109" expanded="true" signature="3031:3608" placeholder="..." />
-                <marker date="1390703868109" expanded="true" signature="3053:3431" placeholder="..." />
-                <marker date="1390703868109" expanded="true" signature="3438:3608" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -89,16 +63,34 @@
       <file leaf-file-name="changepass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/profile/helpers/changepass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="748">
+            <state line="20" column="44" selection-start="495" selection-end="495" vertical-scroll-proportion="-10.846154" vertical-offset="58" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/resetpassword/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resetpass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="32" selection-start="737" selection-end="737" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="55" selection-start="3335" selection-end="3335" vertical-scroll-proportion="0.2972973" vertical-offset="1151" max-vertical-offset="2686">
+            <state line="83" column="54" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.0" vertical-offset="993" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
@@ -131,8 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/administrator/modules/footer.php" />
-        <option value="$PROJECT_DIR$/template/template.php" />
         <option value="$PROJECT_DIR$/administrator/modules/topmenu.php" />
         <option value="$PROJECT_DIR$/administrator/template/template.php" />
         <option value="$PROJECT_DIR$/administrator/helpers/submits/login.php" />
@@ -147,6 +137,8 @@
         <option value="$PROJECT_DIR$/views/profile/helpers/changepass.php" />
         <option value="$PROJECT_DIR$/views/profile/index.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php" />
+        <option value="$PROJECT_DIR$/views/resetpassword/index.php" />
       </list>
     </option>
   </component>
@@ -229,6 +221,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resetpassword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resetpassword" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="profile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -265,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,7 +311,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="submits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,7 +328,7 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myRecovery" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
@@ -451,7 +487,11 @@
       <created>1390703158288</created>
       <updated>1390703158288</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finished profile change password function">
+      <created>1390704053093</created>
+      <updated>1390704053093</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,99 +536,13 @@
     <MESSAGE value="Added site config section to admin panel" />
     <MESSAGE value="Added modules to the framework" />
     <MESSAGE value="Added admin change password and started profile change password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added admin change password and started profile change password" />
+    <MESSAGE value="Finished profile change password function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished profile change password function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="516" selection-end="516" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1020">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/users/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="90" selection-start="5346" selection-end="5346" vertical-scroll-proportion="-18.23077" vertical-offset="818" max-vertical-offset="1649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Logreg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.0797637" vertical-offset="1408" max-vertical-offset="2312">
-          <folding>
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/submits/forgotpass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/submits/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="625" selection-end="784" vertical-scroll-proportion="0.23467863" vertical-offset="268" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="365" selection-end="391" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="1" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0" vertical-offset="2415" max-vertical-offset="6035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="233" column="18" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.0" vertical-offset="3522" max-vertical-offset="6239">
@@ -603,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/submits/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="868" selection-end="1066" vertical-scroll-proportion="0.67971015" vertical-offset="126" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/profile/helpers/updateprofile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="9" selection-start="862" selection-end="862" vertical-scroll-proportion="0.9362319" vertical-offset="0" max-vertical-offset="748">
@@ -617,23 +564,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/changepass.php">
+    <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="142" selection-end="142" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="697">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/profile/helpers/changepass.php">
+    <entry file="file://$PROJECT_DIR$/helpers/submits/forgotpass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="748">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6875934" vertical-offset="460" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/changepassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="134" selection-end="173" vertical-scroll-proportion="0.2541106" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="54" selection-start="1246" selection-end="1263" vertical-scroll-proportion="1.219731" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/profile/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="37" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-9.5" vertical-offset="365" max-vertical-offset="2652">
+        <state line="36" column="37" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="2652">
           <folding>
             <element signature="e#1745#1784#0" expanded="true" />
             <element signature="e#4505#4524#0" expanded="true" />
@@ -645,18 +606,96 @@
             <element signature="e#7025#7044#0" expanded="true" />
             <element signature="e#7400#7419#0" expanded="true" />
             <element signature="e#7474#7493#0" expanded="true" />
-            <marker date="1390703868109" expanded="true" signature="1784:1843" placeholder="..." />
-            <marker date="1390703868109" expanded="true" signature="1999:3608" placeholder="..." />
-            <marker date="1390703868109" expanded="true" signature="3031:3608" placeholder="..." />
-            <marker date="1390703868109" expanded="true" signature="3053:3431" placeholder="..." />
-            <marker date="1390703868109" expanded="true" signature="3438:3608" placeholder="..." />
+            <marker date="1390703868109" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390703868109" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390703868109" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390703868109" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390703868109" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/submits/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="756" selection-end="756" vertical-scroll-proportion="0.63228697" vertical-offset="121" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Logreg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6539634" vertical-offset="429" max-vertical-offset="2312">
+          <folding>
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="92" selection-start="1724" selection-end="1773" vertical-scroll-proportion="0.23932926" vertical-offset="1033" max-vertical-offset="3094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/changepass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="142" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="55" selection-start="3335" selection-end="3335" vertical-scroll-proportion="0.2972973" vertical-offset="1151" max-vertical-offset="2686">
+        <state line="83" column="54" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.0" vertical-offset="993" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile/helpers/changepass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="495" selection-end="495" vertical-scroll-proportion="-10.846154" vertical-offset="58" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="32" selection-start="737" selection-end="737" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resetpassword/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
