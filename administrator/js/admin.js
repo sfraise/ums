@@ -121,11 +121,32 @@ $(document).ready(function () {
     });
 
     /*** MANAGE MEMBERS ***/
-    // MANAGE MEMBERS SHOW/HIDE PROMOTE/DEMOTE SELECT BOX
+    // MANAGE MEMBERS SHOW PROMOTE/DEMOTE SELECT BOX
     $('a[id^=amu_prodem_]').click(function() {
         var userid = $(this).attr('rel');
 
         $('#amu_promote_select_wrapper_' + userid).show();
+    });
+
+    // MANAGE MEMBERS HIDE PROMOTE/DEMOTE SELECT BOX
+    $('a[id^=amu_promote_select_close_]').click(function() {
+        var userid = $(this).attr('rel');
+
+        $('#amu_promote_select_wrapper_' + userid).hide();
+    });
+
+    // MANAGE MEMBERS SHOW CHANGE PASSWORD
+    $('a[id^=amu_changepass_]').click(function() {
+        var userid = $(this).attr('rel');
+
+        $('#amu_changepass_wrapper_' + userid).show();
+    });
+
+    // MANAGE MEMBERS HIDE CHANGE PASSWORD
+    $('a[id^=amu_changepass_close_]').click(function() {
+        var userid = $(this).attr('rel');
+
+        $('#amu_changepass_wrapper_' + userid).hide();
     });
 
     // MANAGE MEMBERS PROMOTE/DEMOTE
@@ -159,10 +180,25 @@ $(document).ready(function () {
         return false;
     });
 
-    // MANAGE MEMBERS SHOW/HIDE PROMOTE/DEMOTE SELECT BOX
-    $('a[id^=amu_promote_select_close_]').click(function() {
+    // MANAGE MEMBERS CHANGE PASSWORD
+    $('a[id^=amu_changepass_submit_]').click(function () {
+        var token = $('#token').val();
         var userid = $(this).attr('rel');
+        var newpass = $('#amu_changepass_input_' + userid).val();
 
-        $('#amu_promote_select_wrapper_' + userid).hide();
+        $('#amu_changepass_message_' + userid).html('<img id="amu_promote_loading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/administrator/views/users/helpers/changepass.php',
+            type: 'POST',
+            data: {token: token, userid: userid, newpass: newpass},
+            success: function (data) {
+                $('#amu_changepass_message_' + userid).html(data);
+                $('#amu_changepass_input_' + userid).val('');
+            },
+            error: function (errorThrown) {
+                $('#amu_changepass_message_' + userid).html(errorThrown);
+            }
+        });
+        return false;
     });
 });

@@ -215,7 +215,6 @@ body {
 /*** MANAGE USERS STYLES ***/
 .admin_manage_user {
     border-bottom: 1px solid #eee;
-    width: 600px;
     padding: 5px;
 }
 
@@ -223,9 +222,16 @@ body {
     display: none;
 }
 
-.amu_prodem {
+.amu_actions {
     float: right;
+}
+
+.amu_promote_select_close {
     cursor: pointer;
+}
+
+.amu_changepass_wrapper {
+    display: none;
 }
 
 .footer {

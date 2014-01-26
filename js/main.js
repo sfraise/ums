@@ -69,6 +69,17 @@ $(document).ready(function() {
     });
 
     /*** EDIT PROFILE ***/
+    // SHOW CHANGE PASSWORD INPUT
+    $('#profile_change_password').click(function() {
+        $('.profile_change_password_wrapper').slideToggle();
+    });
+
+    // HIDE CHANGE PASSWORD INPUT
+    $('#profile_change_password_close').click(function() {
+        $('#profile_change_password_input').val('');
+        $('.profile_change_password_wrapper').slideToggle();
+    });
+
     // IMAGE UPLOAD TOGGLE
     $('#profile_img_upload_area').click(function () {
         $('#profileimguploadform').show();

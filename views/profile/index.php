@@ -27,9 +27,17 @@ if (!$username = Input::get('user')) {
     <div class="userprofile">
         <h3><?php echo escape($data->username); ?></h3>
 
-        <p>Member since: <?php echo $membersince; ?></p>
+        <div>Member since: <?php echo $membersince; ?></div>
 
-        <p>User Type: <?php echo $usertype; ?></p><br/><br/>
+        <div>User Type: <?php echo $usertype; ?></div>
+
+        <?php if($userid == $myid) { ?>
+            <a id="profile_change_password" href="#">Change Password</a>
+            <div class="profile_change_password_wrapper">
+                <input type="text" id="profile_change_password_input" value="" placeholder="New Password" /> <a id="profile_change_password_submit" href="#">Submit</a> - <a id="profile_change_password_close" href="#">Cancel</a>
+                <div id="profile_change_password_message"></div>
+            </div>
+        <?php } ?><br/><br/>
 
         <div class="userprofileleft">
             <!-- USER IMAGE/UPLOAD FORM -->

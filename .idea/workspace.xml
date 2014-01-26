@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/modules/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/modules/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/modules/topmenu.php" />
-      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\login\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\register\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\update\index.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\helpers\submits\promoteuser.php" afterPath="$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php" />
-      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\helpers\submits\updatesitedata.php" afterPath="$PROJECT_DIR$/administrator/views/sitedata/helpers/updatesitedata.php" />
-      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\helpers\submits\verify.php" afterPath="$PROJECT_DIR$/administrator/views/config/helpers/verify.php" />
-      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\helpers\submits\updateprofile.php" afterPath="$PROJECT_DIR$/views/profile/helpers/updateprofile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/views/users/helpers/changepass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/profile/helpers/changepass.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/js/admin.js" afterPath="$PROJECT_DIR$/administrator/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/helpers/submits/login.php" afterPath="$PROJECT_DIR$/administrator/helpers/submits/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/users/index.php" afterPath="$PROJECT_DIR$/administrator/views/users/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile/index.php" afterPath="$PROJECT_DIR$/views/profile/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/helpers/submits/register.php" afterPath="$PROJECT_DIR$/administrator/helpers/submits/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/template.php" afterPath="$PROJECT_DIR$/administrator/template/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/template.php" afterPath="$PROJECT_DIR$/template/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php" afterPath="$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/css/style.css" afterPath="$PROJECT_DIR$/administrator/template/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css/style.css" afterPath="$PROJECT_DIR$/template/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Restaurant Demo.iws" />
@@ -51,7 +42,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="17" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="6018">
+            <state line="152" column="1" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0" vertical-offset="2415" max-vertical-offset="6035">
               <folding />
             </state>
           </provider>
@@ -60,45 +51,61 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="23" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0" vertical-offset="2296" max-vertical-offset="6137">
+            <state line="233" column="18" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.0" vertical-offset="3522" max-vertical-offset="6239">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/template.php">
+      <file leaf-file-name="changepass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/changepass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="892" selection-end="928" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
+            <state line="28" column="45" selection-start="782" selection-end="782" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/index.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/profile/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="629" selection-end="629" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="935">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="64" selection-start="516" selection-end="516" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1020">
+            <state line="37" column="58" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.338257" vertical-offset="400" max-vertical-offset="2652">
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1741#1780#0" expanded="true" />
+                <element signature="e#4501#4520#0" expanded="true" />
+                <element signature="e#5150#5169#0" expanded="true" />
+                <element signature="e#5531#5550#0" expanded="true" />
+                <element signature="e#5899#5918#0" expanded="true" />
+                <element signature="e#6270#6289#0" expanded="true" />
+                <element signature="e#6647#6666#0" expanded="true" />
+                <element signature="e#7021#7040#0" expanded="true" />
+                <element signature="e#7396#7415#0" expanded="true" />
+                <element signature="e#7470#7489#0" expanded="true" />
+                <marker date="1390702825238" expanded="true" signature="1780:1839" placeholder="..." />
+                <marker date="1390702825238" expanded="true" signature="1995:3604" placeholder="..." />
+                <marker date="1390702825238" expanded="true" signature="3027:3604" placeholder="..." />
+                <marker date="1390702825238" expanded="true" signature="3049:3427" placeholder="..." />
+                <marker date="1390702825238" expanded="true" signature="3434:3604" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="changepass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/profile/helpers/changepass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+              <folding>
+                <element signature="e#6#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="41" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.5647226" vertical-offset="1405" max-vertical-offset="2108">
+            <state line="78" column="52" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="2295">
               <folding />
             </state>
           </provider>
@@ -107,7 +114,7 @@
       <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="32" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.0" vertical-offset="679" max-vertical-offset="2941">
+            <state line="195" column="61" selection-start="7693" selection-end="7693" vertical-scroll-proportion="0.0" vertical-offset="2833" max-vertical-offset="3553">
               <folding />
             </state>
           </provider>
@@ -131,21 +138,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/administrator/helpers/submits/verify.php" />
-        <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
-        <option value="$PROJECT_DIR$/administrator/template/css/style.css" />
-        <option value="$PROJECT_DIR$/template/css/style.css" />
-        <option value="$PROJECT_DIR$/views/profile/index.php" />
-        <option value="$PROJECT_DIR$/modules/header.php" />
-        <option value="$PROJECT_DIR$/modules/footer.php" />
         <option value="$PROJECT_DIR$/administrator/modules/header.php" />
         <option value="$PROJECT_DIR$/administrator/modules/footer.php" />
         <option value="$PROJECT_DIR$/template/template.php" />
         <option value="$PROJECT_DIR$/administrator/modules/topmenu.php" />
         <option value="$PROJECT_DIR$/administrator/template/template.php" />
         <option value="$PROJECT_DIR$/administrator/helpers/submits/login.php" />
-        <option value="$PROJECT_DIR$/administrator/js/admin.js" />
         <option value="$PROJECT_DIR$/administrator/helpers/submits/register.php" />
+        <option value="$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php" />
+        <option value="$PROJECT_DIR$/administrator/template/css/style.css" />
+        <option value="$PROJECT_DIR$/administrator/views/users/index.php" />
+        <option value="$PROJECT_DIR$/administrator/views/users/helpers/changepass.php" />
+        <option value="$PROJECT_DIR$/administrator/js/admin.js" />
+        <option value="$PROJECT_DIR$/views/profile/helpers/changepass.php" />
+        <option value="$PROJECT_DIR$/template/css/style.css" />
+        <option value="$PROJECT_DIR$/views/profile/index.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
@@ -198,6 +205,88 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,12 +450,16 @@
       <created>1390688668510</created>
       <updated>1390688668510</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added modules to the framework">
+      <created>1390694741374</created>
+      <updated>1390694741374</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -380,7 +473,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -404,146 +497,16 @@
     <MESSAGE value="Added profile image functionality" />
     <MESSAGE value="Added site logo upload function" />
     <MESSAGE value="Added site config section to admin panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added site config section to admin panel" />
+    <MESSAGE value="Added modules to the framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added modules to the framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <element signature="e#6#88#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="697">
-          <folding>
-            <element signature="e#6#88#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="23" selection-start="2699" selection-end="2699" vertical-scroll-proportion="0.0" vertical-offset="2296" max-vertical-offset="6137">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/modules/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.19710144" vertical-offset="0" max-vertical-offset="690">
-          <folding>
-            <element signature="e#6#88#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/modules/topmenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="195" selection-start="287" selection-end="287" vertical-scroll-proportion="0.20088626" vertical-offset="0" max-vertical-offset="677">
-          <folding>
-            <element signature="e#6#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="892" selection-end="928" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/sitedata/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.28064993" vertical-offset="190" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="629" selection-end="629" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/modules/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="91" selection-end="91" vertical-scroll-proportion="0.051829267" vertical-offset="0" max-vertical-offset="656">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="32" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.0" vertical-offset="679" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/Logreg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <folding>
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/profile/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
           <folding />
         </state>
       </provider>
@@ -557,10 +520,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/users/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="90" selection-start="5346" selection-end="5346" vertical-scroll-proportion="-18.23077" vertical-offset="818" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile/helpers/updateprofile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Logreg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.0797637" vertical-offset="1408" max-vertical-offset="2312">
+          <folding>
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/submits/forgotpass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/submits/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="625" selection-end="784" vertical-scroll-proportion="0.23467863" vertical-offset="268" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="365" selection-end="391" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/users/helpers/changepass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="45" selection-start="782" selection-end="782" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="61" selection-start="7693" selection-end="7693" vertical-scroll-proportion="0.0" vertical-offset="2833" max-vertical-offset="3553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="1" selection-start="2386" selection-end="2386" vertical-scroll-proportion="0.0" vertical-offset="2415" max-vertical-offset="6035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="41" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.5647226" vertical-offset="1405" max-vertical-offset="2108">
+        <state line="78" column="52" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.0" vertical-offset="1094" max-vertical-offset="2295">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="18" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.0" vertical-offset="3522" max-vertical-offset="6239">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile/helpers/changepass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/profile/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="58" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.338257" vertical-offset="400" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#1741#1780#0" expanded="true" />
+            <element signature="e#4501#4520#0" expanded="true" />
+            <element signature="e#5150#5169#0" expanded="true" />
+            <element signature="e#5531#5550#0" expanded="true" />
+            <element signature="e#5899#5918#0" expanded="true" />
+            <element signature="e#6270#6289#0" expanded="true" />
+            <element signature="e#6647#6666#0" expanded="true" />
+            <element signature="e#7021#7040#0" expanded="true" />
+            <element signature="e#7396#7415#0" expanded="true" />
+            <element signature="e#7470#7489#0" expanded="true" />
+            <marker date="1390702825238" expanded="true" signature="1780:1839" placeholder="..." />
+            <marker date="1390702825238" expanded="true" signature="1995:3604" placeholder="..." />
+            <marker date="1390702825238" expanded="true" signature="3027:3604" placeholder="..." />
+            <marker date="1390702825238" expanded="true" signature="3049:3427" placeholder="..." />
+            <marker date="1390702825238" expanded="true" signature="3434:3604" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

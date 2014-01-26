@@ -26,7 +26,7 @@ if(Token::check($token)) {
                                 <option value=\"3\">Demote to Administrator</option>
                                 <option value=\"4\">Demote to Moderator</option>
                                 <option value=\"1\">Demote to Registered</option>
-                            </select> - <a id=\"amu_promote_select_close_".$userid."\" rel=\"".$userid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$userid."\" class=\"amu_promote_select_close\" rel=\"".$userid."\">Hide</a>
                             </div>";
         } elseif ($type == 3) {
             $thisusertype = 'Administrator';
@@ -37,7 +37,7 @@ if(Token::check($token)) {
                                 <option value=\"2\">Promote to Super Administrator</option>
                                 <option value=\"4\">Demote to Moderator</option>
                                 <option value=\"1\">Demote to Registered</option>
-                            </select> - <a id=\"amu_promote_select_close_".$userid."\" rel=\"".$userid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$userid."\" class=\"amu_promote_select_close\" rel=\"".$userid."\">Hide</a>
                             </div>";
         } elseif ($type == 4) {
             $thisusertype = 'Moderator';
@@ -48,7 +48,7 @@ if(Token::check($token)) {
                                 <option value=\"2\">Promote to Super Administrator</option>
                                 <option value=\"3\">Promote to Administrator</option>
                                 <option value=\"1\">Demote to Registered</option>
-                            </select> - <a id=\"amu_promote_select_close_".$userid."\" rel=\"".$userid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$userid."\" class=\"amu_promote_select_close\" rel=\"".$userid."\">Hide</a>
                             </div>";
         } else {
             $thisusertype = 'Registered';
@@ -59,7 +59,7 @@ if(Token::check($token)) {
                                 <option value=\"2\">Promote to Super Administrator</option>
                                 <option value=\"3\">Promote to Administrator</option>
                                 <option value=\"4\">Promote to Moderator</option>
-                            </select> - <a id=\"amu_promote_select_close_".$userid."\" rel=\"".$userid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$userid."\" class=\"amu_promote_select_close\" rel=\"".$userid."\">Hide</a>
                             </div>";
         }
         echo $thisuserpromote;

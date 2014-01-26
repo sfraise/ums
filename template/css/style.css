@@ -150,7 +150,8 @@ body {
 }
 
 /*** PROFILE STYLES ***/
-.userprofile {
+.profile_change_password_wrapper {
+    display: none;
 }
 
 .userprofileleft {

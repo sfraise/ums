@@ -20,6 +20,7 @@ if (!$usersdata->count()) {
         $thisuserfirstname = $user->firstname;
         $thisuserlastname = $user->lastname;
         $thisusergroup = $user->user_group;
+        $thisuserregdate = date('m-d-Y', strtotime($user->joined));
 
         if ($thisusergroup == 2) {
             $thisusertype = 'Super Administrator';
@@ -30,7 +31,7 @@ if (!$usersdata->count()) {
                                 <option value=\"3\">Demote to Administrator</option>
                                 <option value=\"4\">Demote to Moderator</option>
                                 <option value=\"1\">Demote to Registered</option>
-                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" rel=\"".$thisuserid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" class=\"amu_promote_select_close\" rel=\"".$thisuserid."\">Hide</a>
                             </div>";
         } elseif ($thisusergroup == 3) {
             $thisusertype = 'Administrator';
@@ -41,7 +42,7 @@ if (!$usersdata->count()) {
                                 <option value=\"2\">Promote to Super Administrator</option>
                                 <option value=\"4\">Demote to Moderator</option>
                                 <option value=\"1\">Demote to Registered</option>
-                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" rel=\"".$thisuserid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" class=\"amu_promote_select_close\" rel=\"".$thisuserid."\">Hide</a>
                             </div>";
         } elseif ($thisusergroup == 4) {
             $thisusertype = 'Moderator';
@@ -52,7 +53,7 @@ if (!$usersdata->count()) {
                                 <option value=\"2\">Promote to Super Administrator</option>
                                 <option value=\"3\">Promote to Administrator</option>
                                 <option value=\"1\">Demote to Registered</option>
-                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" rel=\"".$thisuserid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" class=\"amu_promote_select_close\" rel=\"".$thisuserid."\">Hide</a>
                             </div>";
         } else {
             $thisusertype = 'Registered';
@@ -63,15 +64,23 @@ if (!$usersdata->count()) {
                                 <option value=\"2\">Promote to Super Administrator</option>
                                 <option value=\"3\">Promote to Administrator</option>
                                 <option value=\"4\">Promote to Moderator</option>
-                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" rel=\"".$thisuserid."\">Hide</a>
+                            </select> - <a id=\"amu_promote_select_close_".$thisuserid."\" class=\"amu_promote_select_close\" rel=\"".$thisuserid."\">Hide</a>
                             </div>";
         }
 
         $members[] = "
                     <div id=\"admin_manage_user_".$thisuserid."\" class=\"admin_manage_user\">
-                        " . $thisuserid . " " . $thisuserfirstname . " " . $thisuserlastname . " " . $thisuseremail . " <span id=\"amu_type_".$thisuserid."\">" . $thisusertype . "</span> <a id=\"amu_prodem_".$thisuserid."\" class=\"amu_prodem\" rel=\"".$thisuserid."\">Promote/Demote</a><br />
+                        " . $thisuserid . " " . $thisuserfirstname . " " . $thisuserlastname . " " . $thisuseremail . " " . $thisuserregdate . "
+                        <span id=\"amu_type_".$thisuserid."\">" . $thisusertype . "</span>
+                        <div class=\"amu_actions\">
+                            <a id=\"amu_prodem_".$thisuserid."\" class=\"amu_prodem\" href=\"#\" rel=\"".$thisuserid."\">Promote/Demote</a> - <a id=\"amu_changepass_".$thisuserid."\" class=\"amu_changepass\" href=\"#\" rel=\"".$thisuserid."\">Change Password</a>
+                        </div>
                         <div id=\"admin_manage_user_promote_".$thisuserid."\">
                             ".$thisuserpromote."
+                        </div>
+                        <div id=\"amu_changepass_wrapper_".$thisuserid."\" class=\"amu_changepass_wrapper\">
+                            <input type=\"text\" id=\"amu_changepass_input_".$thisuserid."\" value=\"\" placeholder=\"New Password\" /> <a id=\"amu_changepass_submit_".$thisuserid."\" class=\"amu_changepass_submit\" href=\"#\" rel=\"".$thisuserid."\">Submit</a> - <a id=\"amu_changepass_close_".$thisuserid."\" class=\"amu_changepass_close\" href=\"#\" rel=\"".$thisuserid."\">Hide</a>
+                            <div id=\"amu_changepass_message_".$thisuserid."\" class=\"amu_changepass_message\"></div>
                         </div>
                     </div>";
         $i++;
