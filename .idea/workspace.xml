@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/helpers/submits/verify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/modules/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/modules/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/modules/topmenu.php" />
+      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\login\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\register\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\update\index.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\helpers\submits\promoteuser.php" afterPath="$PROJECT_DIR$/administrator/views/users/helpers/promoteuser.php" />
+      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\helpers\submits\updatesitedata.php" afterPath="$PROJECT_DIR$/administrator/views/sitedata/helpers/updatesitedata.php" />
+      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\helpers\submits\verify.php" afterPath="$PROJECT_DIR$/administrator/views/config/helpers/verify.php" />
+      <change type="MOVED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\helpers\submits\updateprofile.php" afterPath="$PROJECT_DIR$/views/profile/helpers/updateprofile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/js/admin.js" afterPath="$PROJECT_DIR$/administrator/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/config/index.php" afterPath="$PROJECT_DIR$/administrator/views/config/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/users/index.php" afterPath="$PROJECT_DIR$/administrator/views/users/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/profile/index.php" afterPath="$PROJECT_DIR$/views/profile/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php" afterPath="$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/css/style.css" afterPath="$PROJECT_DIR$/administrator/template/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css/style.css" afterPath="$PROJECT_DIR$/template/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/helpers/submits/login.php" afterPath="$PROJECT_DIR$/administrator/helpers/submits/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/helpers/submits/register.php" afterPath="$PROJECT_DIR$/administrator/helpers/submits/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/template.php" afterPath="$PROJECT_DIR$/administrator/template/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/template.php" afterPath="$PROJECT_DIR$/template/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Restaurant Demo.iws" />
@@ -47,26 +57,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/profile/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="39" selection-start="6985" selection-end="6985" vertical-scroll-proportion="0.80487806" vertical-offset="1818" max-vertical-offset="2516">
-              <folding>
-                <element signature="e#1230#1269#0" expanded="true" />
-                <element signature="e#3990#4009#0" expanded="true" />
-                <element signature="e#4639#4658#0" expanded="true" />
-                <element signature="e#5020#5039#0" expanded="true" />
-                <element signature="e#5388#5407#0" expanded="true" />
-                <element signature="e#5759#5778#0" expanded="true" />
-                <element signature="e#6136#6155#0" expanded="true" />
-                <element signature="e#6510#6529#0" expanded="true" />
-                <element signature="e#6885#6904#0" expanded="true" />
-                <element signature="e#6959#6978#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,10 +66,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="4" selection-start="892" selection-end="928" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="631" selection-end="1149" vertical-scroll-proportion="-6.923077" vertical-offset="228" max-vertical-offset="935">
+            <state line="27" column="1" selection-start="629" selection-end="629" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -88,42 +87,18 @@
       <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1394">
+            <state line="12" column="64" selection-start="516" selection-end="516" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1020">
               <folding>
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1390687625168" expanded="true" signature="393:625" placeholder="..." />
-                <marker date="1390687625168" expanded="true" signature="431:625" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="verify.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/verify.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-14.769231" vertical-offset="330" max-vertical-offset="1020">
-              <folding>
-                <marker date="1390687605728" expanded="true" signature="1191:1266" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="26" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0" vertical-offset="1058" max-vertical-offset="2108">
+            <state line="106" column="41" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.5647226" vertical-offset="1405" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -132,7 +107,7 @@
       <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="19" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1819">
+            <state line="57" column="32" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.0" vertical-offset="679" max-vertical-offset="2941">
               <folding />
             </state>
           </provider>
@@ -156,22 +131,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/image_upload/scripts/profileupload.php" />
-        <option value="$PROJECT_DIR$/administrator/template/template.php" />
-        <option value="$PROJECT_DIR$/js/image_upload/scripts/ajaxupload.js" />
-        <option value="$PROJECT_DIR$/administrator/views/sitedata/index.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/template/template.php" />
-        <option value="$PROJECT_DIR$/js/image_upload/scripts/logoupload.php" />
-        <option value="$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php" />
-        <option value="$PROJECT_DIR$/administrator/views/users/index.php" />
-        <option value="$PROJECT_DIR$/administrator/index.php" />
-        <option value="$PROJECT_DIR$/administrator/js/admin.js" />
         <option value="$PROJECT_DIR$/administrator/helpers/submits/verify.php" />
         <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
         <option value="$PROJECT_DIR$/administrator/template/css/style.css" />
         <option value="$PROJECT_DIR$/template/css/style.css" />
         <option value="$PROJECT_DIR$/views/profile/index.php" />
+        <option value="$PROJECT_DIR$/modules/header.php" />
+        <option value="$PROJECT_DIR$/modules/footer.php" />
+        <option value="$PROJECT_DIR$/administrator/modules/header.php" />
+        <option value="$PROJECT_DIR$/administrator/modules/footer.php" />
+        <option value="$PROJECT_DIR$/template/template.php" />
+        <option value="$PROJECT_DIR$/administrator/modules/topmenu.php" />
+        <option value="$PROJECT_DIR$/administrator/template/template.php" />
+        <option value="$PROJECT_DIR$/administrator/helpers/submits/login.php" />
+        <option value="$PROJECT_DIR$/administrator/js/admin.js" />
+        <option value="$PROJECT_DIR$/administrator/helpers/submits/register.php" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -223,312 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="profile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image_upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Restaurant Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administrator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="submits" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -603,11 +272,11 @@
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\profile\helpers" />
+      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\views\users\helpers" />
+      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\views\config\helpers" />
+      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\administrator\views\sitedata\helpers" />
       <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\images\logo" />
-      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo" />
-      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\update" />
-      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\logout" />
-      <recent name="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\views\profile" />
     </key>
   </component>
   <component name="RunManager">
@@ -688,12 +357,16 @@
       <created>1390623036245</created>
       <updated>1390623036245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added site config section to admin panel">
+      <created>1390688668510</created>
+      <updated>1390688668510</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -707,7 +380,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.671159" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -730,110 +403,30 @@
     <MESSAGE value="Updated token checks" />
     <MESSAGE value="Added profile image functionality" />
     <MESSAGE value="Added site logo upload function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added site logo upload function" />
+    <MESSAGE value="Added site config section to admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added site config section to admin panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/template/template.php">
+    <entry file="file://$PROJECT_DIR$/modules/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3109756" vertical-offset="119" max-vertical-offset="1071">
+        <state line="7" column="2" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
           <folding>
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6#88#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/image_upload/scripts/logoupload.php">
+    <entry file="file://$PROJECT_DIR$/modules/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="35" selection-start="9822" selection-end="9822" vertical-scroll-proportion="-0.627451" vertical-offset="3691" max-vertical-offset="4335">
+        <state line="7" column="2" selection-start="91" selection-end="91" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="697">
           <folding>
-            <element signature="e#90#172#0" expanded="true" />
-            <marker date="1390622833678" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="26" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0" vertical-offset="1058" max-vertical-offset="2108">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="868" selection-end="1066" vertical-scroll-proportion="0.6696562" vertical-offset="147" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/users/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="223" selection-start="4421" selection-end="4442" vertical-scroll-proportion="-12.538462" vertical-offset="796" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/updatesitedata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="390" selection-end="718" vertical-scroll-proportion="0.4573991" vertical-offset="0" max-vertical-offset="669">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/promoteuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="3941" selection-end="4123" vertical-scroll-proportion="0.6831091" vertical-offset="716" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="631" selection-end="1149" vertical-scroll-proportion="-6.923077" vertical-offset="228" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="19" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1394">
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/checkmark.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/verify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1036" selection-end="1036" vertical-scroll-proportion="-14.769231" vertical-offset="330" max-vertical-offset="1020">
-          <folding>
-            <marker date="1390687605728" expanded="true" signature="1191:1266" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1390687625168" expanded="true" signature="393:625" placeholder="..." />
-            <marker date="1390687625168" expanded="true" signature="431:625" placeholder="..." />
+            <element signature="e#6#88#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -845,28 +438,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/css/style.css">
+    <entry file="file://$PROJECT_DIR$/administrator/modules/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="17" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0" vertical-offset="2329" max-vertical-offset="6018">
+        <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.19710144" vertical-offset="0" max-vertical-offset="690">
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/modules/topmenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="195" selection-start="287" selection-end="287" vertical-scroll-proportion="0.20088626" vertical-offset="0" max-vertical-offset="677">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="892" selection-end="928" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/views/sitedata/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.28064993" vertical-offset="190" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="629" selection-end="629" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/modules/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="91" selection-end="91" vertical-scroll-proportion="0.051829267" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="32" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.0" vertical-offset="679" max-vertical-offset="2941">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/helpers/submits/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Logreg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
+          <folding>
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390242720517" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/profile/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="39" selection-start="6985" selection-end="6985" vertical-scroll-proportion="0.80487806" vertical-offset="1818" max-vertical-offset="2516">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="64" selection-start="516" selection-end="516" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1020">
           <folding>
-            <element signature="e#1230#1269#0" expanded="true" />
-            <element signature="e#3990#4009#0" expanded="true" />
-            <element signature="e#4639#4658#0" expanded="true" />
-            <element signature="e#5020#5039#0" expanded="true" />
-            <element signature="e#5388#5407#0" expanded="true" />
-            <element signature="e#5759#5778#0" expanded="true" />
-            <element signature="e#6136#6155#0" expanded="true" />
-            <element signature="e#6510#6529#0" expanded="true" />
-            <element signature="e#6885#6904#0" expanded="true" />
-            <element signature="e#6959#6978#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="41" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.5647226" vertical-offset="1405" max-vertical-offset="2108">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -15,62 +15,40 @@
 </head>
 <body>
 <div class="pagewrapper">
+    <!-- HEADER (administrator/modules/header.php) -->
     <div class="header">
-        <div class="logo">
-            <a href="../index.php"><?php echo $sitelogo; ?></a>
-        </div>
-        <div class="logreg">
-            <?php
-            $newRegister = new logReg();
-            $newRegister->set_logreg();
-            $register = $newRegister->get_logreg('register');
-            $login = $newRegister->get_logreg('login');
-            $logout = $newRegister->get_logreg('logout');
-            $changepassword = $newRegister->get_logreg('changepassword');
-            $forgotpassword = $newRegister->get_logreg('forgotpassword');
-            ?>
-            <?php if ($user->isLoggedIn()) { ?>
-                <div class="loginmessage">
-                    Hello <a href="../index.php?option=profile&user=<?php echo escape($user->data()->id); ?>"><?php echo escape($user->data()->firstname); ?></a>! - <?php echo $usertype; ?>
-                </div>
-                <div class="loginlinks">
-                    <?php echo $logout; ?> <a href="../index.php?option=profile&user=<?php echo $myid; ?>">My Profile</a> <a href="../index.php">Main Site</a>
-                </div>
-            <?php } else { ?>
-                <div class="loginlinks">
-                    You need to <?php echo $login; ?> or <?php echo $register; ?>!<br />(<?php echo $forgotpassword; ?>)
-                </div>
-            <?php } ?>
-            <div style="clear:both;"></div>
-        </div>
-        <div style="clear:both;"></div>
+        <?php require_once 'modules/header.php'; ?>
     </div>
     <div class="adminmain">
+        <!-- IF USER IS LOGGED IN -->
         <?php if ($user->isLoggedIn()) { ?>
+            <!-- IF USER IS AT LEAST A MOD USER TYPE -->
             <?php if($user->hasPermission('mod')) { ?>
+                <!-- TOP MENU (administrator/modules/topmenu.php) -->
                 <div class="admintopmenu">
-                    <a href="index.php">Admin Home</a> - <a href="index.php?option=config">Site Config</a> - <a href="index.php?option=sitedata">Edit Site Info</a> - <a href="index.php?option=users">Manage Users</a>
+                    <?php require_once 'modules/topmenu.php'; ?>
                 </div>
+                <!-- MAIN OPTION VIEWS (administrator/views/'option'/index.php) -->
                 <div class="adminmainbody">
-                    <div class="adminmainbody">
-                        <?php require_once 'helpers/router.php'; ?>
-                    </div>
+                    <?php require_once 'helpers/router.php'; ?>
                 </div>
                 <div style="clear:both;"></div>
+            <!-- IF USER IS NOT AT LEAST A MOD USER TYPE -->
             <?php } else { ?>
                 <div class="adminnotloggedin">
                     You are not authorized to view this page!
                 </div>
             <?php } ?>
+        <!-- IF USER IS NOT LOGGED IN -->
         <?php } else { ?>
             <div class="adminnotloggedin">
                 You must log in!
             </div>
         <?php } ?>
     </div>
+    <!-- FOOTER (administrator/modules/footer.php) -->
     <div class="footer">
-        Footer
-        <div style="clear:both;"></div>
+        <?php require_once 'modules/footer.php'; ?>
     </div>
 </div>
 </body>

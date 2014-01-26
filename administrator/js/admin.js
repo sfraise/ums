@@ -3,21 +3,66 @@
  */
 $(document).ready(function () {
     // REGISTER
-    $('#editsite_submit').click(function () {
-        var editsitetoken = $('#token').val();
-        var editsitename = $('#editsitename').val();
-        var editsitedesc = $('#editsitedesc').val();
+    $('#register_submit').click(function() {
+        var register_token = $('#token').val();
+        var register_email = $('#register_email').val();
+        var register_firstname = $('#register_firstname').val();
+        var register_lastname = $('#register_lastname').val();
+        var register_password = $('#register_password').val();
+        var register_password_again = $('#register_password_again').val();
 
-        $('#editsite_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $('#register_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
         $.ajax({
-            url: 'helpers/submits/updatesitedata.php',
+            url: '/administrator/helpers/submits/register.php',
             type: 'POST',
-            data: {editsitetoken: editsitetoken, editsitename: editsitename, editsitedesc: editsitedesc},
+            data: {register_token: register_token, register_email: register_email, register_firstname: register_firstname, register_lastname: register_lastname, register_password: register_password, register_password_again: register_password_again},
             success: function (data) {
-                $('#editsite_message').html(data);
+                $('#register_message').html(data);
             },
             error: function (errorThrown) {
-                $('#editsite_message').html(errorThrown);
+                $('#register_message').html(errorThrown);
+            }
+        });
+        return false;
+    });
+
+    // LOGIN
+    $('#login_submit').click(function() {
+        var login_token = $('#token').val();
+        var login_email = $('#login_email').val();
+        var login_password = $('#login_password').val();
+        var login_remember = $('#login_remember').val();
+
+        $('#login_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/administrator/helpers/submits/login.php',
+            type: 'POST',
+            data: {login_token: login_token, login_email: login_email, login_password: login_password, login_remember: login_remember},
+            success: function (data) {
+                $('#login_message').html(data);
+            },
+            error: function (errorThrown) {
+                $('#login_message').html(errorThrown);
+            }
+        });
+        return false;
+    });
+
+    // FORGOT PASSWORD
+    $('#forgotpass_submit').click(function() {
+        var forgotpass_token = $('#token').val();
+        var forgotpass_email = $('#forgotpass_email').val();
+
+        $('#forgotpass_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/administrator/helpers/submits/forgotpass.php',
+            type: 'POST',
+            data: {forgotpass_token: forgotpass_token, forgotpass_email: forgotpass_email},
+            success: function (data) {
+                $('#forgotpass_message').html(data);
+            },
+            error: function (errorThrown) {
+                $('#forgotpass_message').html(errorThrown);
             }
         });
         return false;
@@ -30,7 +75,7 @@ $(document).ready(function () {
 
         $('#admin_config_veirfy_button').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
         $.ajax({
-            url: 'helpers/submits/verify.php',
+            url: '/administrator/views/config/helpers/verify.php',
             type: 'POST',
             data: {token: token},
             success: function (data) {
@@ -52,6 +97,27 @@ $(document).ready(function () {
     $('#update_logo_upload_cancel').click(function () {
         $('#updatelogouploadform').hide();
         $('#update_logo_upload_area').show();
+    });
+
+    // EDIT SITE INFO
+    $('#editsite_submit').click(function () {
+        var editsitetoken = $('#token').val();
+        var editsitename = $('#editsitename').val();
+        var editsitedesc = $('#editsitedesc').val();
+
+        $('#editsite_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/administrator/views/sitedata/helpers/updatesitedata.php',
+            type: 'POST',
+            data: {editsitetoken: editsitetoken, editsitename: editsitename, editsitedesc: editsitedesc},
+            success: function (data) {
+                $('#editsite_message').html(data);
+            },
+            error: function (errorThrown) {
+                $('#editsite_message').html(errorThrown);
+            }
+        });
+        return false;
     });
 
     /*** MANAGE MEMBERS ***/
@@ -79,7 +145,7 @@ $(document).ready(function () {
 
         $('#amu_promote_select_wrapper_' + userid).html('<img id="amu_promote_loading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
         $.ajax({
-            url: 'helpers/submits/promoteuser.php',
+            url: '/administrator/views/users/helpers/promoteuser.php',
             type: 'POST',
             data: {token: token, userid: userid, type: type},
             success: function (data) {

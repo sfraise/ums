@@ -15,43 +15,17 @@
 </head>
 <body>
 <div class="pagewrapper">
+    <!-- HEADER (modules/header.php) -->
     <div class="header">
-        <div class="logo">
-            <a href="index.php"><?php echo $sitelogo; ?></a>
-        </div>
-        <div class="logreg">
-            <?php
-                $newRegister = new logReg();
-                $newRegister->set_logreg();
-                $register = $newRegister->get_logreg('register');
-                $login = $newRegister->get_logreg('login');
-                $logout = $newRegister->get_logreg('logout');
-                $changepassword = $newRegister->get_logreg('changepassword');
-                $forgotpassword = $newRegister->get_logreg('forgotpassword');
-            ?>
-            <?php if ($user->isLoggedIn()) { ?>
-                <div class="loginmessage">
-                    Hello <a href="index.php?option=profile&user=<?php echo escape($user->data()->id); ?>"><?php echo escape($user->data()->firstname); ?></a>! - <?php echo $usertype; ?>
-                </div>
-                <div class="loginlinks">
-                    <?php echo $logout; ?> <a href="index.php?option=profile&user=<?php echo $myid; ?>">My Profile</a> <?php if($user->hasPermission('admin')) { ?><a href="/administrator/index.php">Admin Panel</a><?php } ?>
-                </div>
-            <?php } else { ?>
-                <div class="loginlinks">
-                    You need to <?php echo $login; ?> or <?php echo $register; ?>!<br />(<?php echo $forgotpassword; ?>)
-                </div>
-            <?php } ?>
-            <div style="clear:both;"></div>
-        </div>
-        <div style="clear:both;"></div>
+        <?php require_once 'modules/header.php'; ?>
     </div>
+    <!-- MAIN OPTION VIEWS (views/'option'/index.php) -->
     <div class="main">
         <?php require_once 'helpers/router.php'; ?>
-        <div style="clear:both;"></div>
     </div>
+    <!-- FOOTER (modules/footer.php) -->
     <div class="footer">
-        Footer
-        <div style="clear:both;"></div>
+        <?php require_once 'modules/footer.php'; ?>
     </div>
 </div>
 </body>
