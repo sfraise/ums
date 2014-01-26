@@ -34,7 +34,7 @@ if (!$username = Input::get('user')) {
         <?php if($userid == $myid) { ?>
             <a id="profile_change_password" href="#">Change Password</a>
             <div class="profile_change_password_wrapper">
-                <input type="text" id="profile_change_password_input" value="" placeholder="New Password" /> <a id="profile_change_password_submit" href="#">Submit</a> - <a id="profile_change_password_close" href="#">Cancel</a>
+                <input type="password" id="profile_change_password_input" value="" placeholder="New Password" /> <a id="profile_change_password_submit" href="#">Submit</a> - <a id="profile_change_password_close" href="#">Cancel</a>
                 <div id="profile_change_password_message"></div>
             </div>
         <?php } ?><br/><br/>

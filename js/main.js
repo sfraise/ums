@@ -78,6 +78,29 @@ $(document).ready(function() {
     $('#profile_change_password_close').click(function() {
         $('#profile_change_password_input').val('');
         $('.profile_change_password_wrapper').slideToggle();
+        $('#profile_change_password_message').html('');
+    });
+
+    // PROFILE CHANGE PASSWORD
+    $('#profile_change_password_submit').click(function () {
+        var token = $('#token').val();
+        var userid = $('#myid').val();
+        var newpass = $('#profile_change_password_input').val();
+
+        $('#profile_change_password_message').html('<img class="profile_change_password_loading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/views/profile/helpers/changepass.php',
+            type: 'POST',
+            data: {token: token, userid: userid, newpass: newpass},
+            success: function (data) {
+                $('#profile_change_password_message').html(data);
+                $('#profile_change_password_input').val('');
+            },
+            error: function (errorThrown) {
+                $('#profile_change_password_message').html(errorThrown);
+            }
+        });
+        return false;
     });
 
     // IMAGE UPLOAD TOGGLE

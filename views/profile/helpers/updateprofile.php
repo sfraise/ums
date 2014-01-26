@@ -33,3 +33,7 @@ $user = new User($myid);
 
 echo $user->userFields($myid, $field, 'text');
 ?>
+<script type="text/javascript">
+    // RESET THE PARENT PAGE TOKEN IN ORDER TO VALIDATE ON NEXT TRY
+    $('#token').val('<?php echo Token::generate(); ?>');
+</script>
