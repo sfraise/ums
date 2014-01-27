@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysql-connector-license.txt" />
+      <change type="DELETED" beforePath="C:\Users\Spencer\PhpstormProjects\Restaurant Demo\mysql-connector-license.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -62,7 +62,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="0.87849164" vertical-offset="0" max-vertical-offset="731">
+            <state line="38" column="27" selection-start="424" selection-end="424" vertical-scroll-proportion="0.9022346" vertical-offset="0" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -386,7 +386,11 @@
       <created>1390803171359</created>
       <updated>1390803171359</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated .gitignore to ignore phpstorm .idea files">
+      <created>1390803361532</created>
+      <updated>1390803361532</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -436,7 +440,8 @@
     <MESSAGE value="Added tinymce wysiwyg editor and admin panel verification email function" />
     <MESSAGE value="Set specific wysiwyg class for editor" />
     <MESSAGE value="Updated sql file and added .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated sql file and added .gitignore file" />
+    <MESSAGE value="Updated .gitignore to ignore phpstorm .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore to ignore phpstorm .idea files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -584,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="7" selection-start="396" selection-end="396" vertical-scroll-proportion="0.87849164" vertical-offset="0" max-vertical-offset="731">
+        <state line="38" column="27" selection-start="424" selection-end="424" vertical-scroll-proportion="0.9022346" vertical-offset="0" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
