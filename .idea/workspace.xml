@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
+    <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="Removed .idea">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Restaurant Demo.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
@@ -12,6 +12,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="Restaurant Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +70,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="88" selection-end="88" vertical-scroll-proportion="0.21368715" vertical-offset="0" max-vertical-offset="748">
+            <state line="37" column="6" selection-start="395" selection-end="395" vertical-scroll-proportion="0.87849164" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -401,7 +402,11 @@
       <created>1390803646870</created>
       <updated>1390803646870</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Removed .idea">
+      <created>1390804176822</created>
+      <updated>1390804176822</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -452,7 +457,8 @@
     <MESSAGE value="Set specific wysiwyg class for editor" />
     <MESSAGE value="Updated sql file and added .gitignore file" />
     <MESSAGE value="Updated .gitignore to ignore phpstorm .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore to ignore phpstorm .idea files" />
+    <MESSAGE value="Removed .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -600,7 +606,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="88" selection-end="88" vertical-scroll-proportion="0.21368715" vertical-offset="0" max-vertical-offset="748">
+        <state line="37" column="6" selection-start="395" selection-end="395" vertical-scroll-proportion="0.87849164" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>

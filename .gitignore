@@ -35,5 +35,6 @@ Thumbs.db
 
 # PhpStorm Generated Files #
 ############################
+.idea/
 .idea/*
 mysql-connector-license.txt
