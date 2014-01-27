@@ -12,7 +12,8 @@
     <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
     <script type="text/javascript">
         tinymce.init({
-            selector: "textarea"
+            mode : "specific_textareas",
+            editor_selector : "wysiwyg"
         });
     </script>
     <script type="text/javascript" src="/js/colorbox/jquery.colorbox-min.js"></script>

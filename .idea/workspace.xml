@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/img/object.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/code/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/example/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/hr/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/image/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/layer/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/link/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/lists/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/media/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/paste/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/preview/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/print/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/save/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/table/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/template/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/langs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/skin.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/themes/modern/theme.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/tinymce.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/views/config/helpers/verifyemail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/js/admin.js" afterPath="$PROJECT_DIR$/administrator/js/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/config/index.php" afterPath="$PROJECT_DIR$/administrator/views/config/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/resetpassword/index.php" afterPath="$PROJECT_DIR$/views/resetpassword/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php" afterPath="$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/css/style.css" afterPath="$PROJECT_DIR$/administrator/template/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/template/template.php" afterPath="$PROJECT_DIR$/administrator/template/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -127,19 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="20" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.7639665" vertical-offset="2615" max-vertical-offset="6596">
+            <state line="186" column="20" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.0" vertical-offset="2615" max-vertical-offset="6596">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="501" selection-end="501" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1122">
+            <state line="15" column="39" selection-start="582" selection-end="582" vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -148,7 +62,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="73" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="833">
+            <state line="34" column="76" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-13.461538" vertical-offset="143" max-vertical-offset="833">
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -218,9 +132,9 @@
         <option value="$PROJECT_DIR$/views/resetpassword/helpers/resetpass.php" />
         <option value="$PROJECT_DIR$/administrator/js/admin.js" />
         <option value="$PROJECT_DIR$/administrator/views/config/helpers/verifyemail.php" />
-        <option value="$PROJECT_DIR$/administrator/template/template.php" />
-        <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
         <option value="$PROJECT_DIR$/administrator/template/css/style.css" />
+        <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
+        <option value="$PROJECT_DIR$/administrator/template/template.php" />
       </list>
     </option>
   </component>
@@ -549,7 +463,11 @@
       <created>1390773868794</created>
       <updated>1390773868794</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added tinymce wysiwyg editor and admin panel verification email function">
+      <created>1390786356667</created>
+      <updated>1390786356667</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -596,7 +514,8 @@
     <MESSAGE value="Added admin change password and started profile change password" />
     <MESSAGE value="Finished profile change password function" />
     <MESSAGE value="Finished reset password functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished reset password functionality" />
+    <MESSAGE value="Added tinymce wysiwyg editor and admin panel verification email function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tinymce wysiwyg editor and admin panel verification email function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -740,16 +659,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
+    <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="501" selection-end="501" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1122">
+        <state line="186" column="20" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.0" vertical-offset="2615" max-vertical-offset="6596">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/views/config/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="73" selection-start="1320" selection-end="1320" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="833">
+        <state line="34" column="76" selection-start="1000" selection-end="1000" vertical-scroll-proportion="-13.461538" vertical-offset="143" max-vertical-offset="833">
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -758,9 +677,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
+    <entry file="file://$PROJECT_DIR$/administrator/template/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="20" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.7639665" vertical-offset="2615" max-vertical-offset="6596">
+        <state line="15" column="39" selection-start="582" selection-end="582" vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>

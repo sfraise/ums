@@ -32,7 +32,7 @@ echo 'Configuration';
         <input type="hidden" id="admin_config_verify_checked" value="<?php echo $verify; ?>" />
         <div style="clear:both;"></div>
         <div id="admin_config_verify_email" style="<?php echo $vedisplay; ?>;">
-            <textarea id="admin_config_verify_email_textarea" placeholder="Verification Email">
+            <textarea id="admin_config_verify_email_textarea" class="wysiwyg" placeholder="Verification Email">
                 Thank you for joining <?php echo $sitename; ?>,<br /><br />
                 Please click the link below to activate your account:
             </textarea>
