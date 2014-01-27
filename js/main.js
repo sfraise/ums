@@ -73,20 +73,28 @@ $(document).ready(function() {
         var token = $('#token').val();
         var userid = $('#resetpass_input_userid').val();
         var newpass = $('#resetpass_input_newpass').val();
-
-        $('#resetpass_message').html('<img class="profile_change_password_loading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
-        $.ajax({
-            url: '/views/resetpassword/helpers/resetpass.php',
-            type: 'POST',
-            data: {token: token, userid: userid, newpass: newpass},
-            success: function (data) {
-                $('#resetpass_message').html(data);
-                $('#resetpass_input_newpass').val('');
-            },
-            error: function (errorThrown) {
-                $('#resetpass_message').html(errorThrown);
-            }
-        });
+        if(!token) {
+            $('#resetpass_message').html('The token is invalid!');
+        } else if(!userid) {
+            $('#resetpass_message').html('The user doesn\'t exist!');
+        } else if(!newpass) {
+            $('#resetpass_message').html('Please enter a new password!');
+        } else {
+            $('#resetpass_message').html('<img class="profile_change_password_loading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+            $.ajax({
+                url: '/views/resetpassword/helpers/resetpass.php',
+                type: 'POST',
+                data: {token: token, userid: userid, newpass: newpass},
+                success: function (data) {
+                    $('#resetpass_input_newpass').val('');
+                    $('#resetpass_message').html('');
+                    $('.resetpass_input').html(data);
+                },
+                error: function (errorThrown) {
+                    $('#resetpass_message').html(errorThrown);
+                }
+            });
+        }
         return false;
     });
 

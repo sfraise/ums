@@ -9,6 +9,12 @@
 
     <!-- SCRIPTS -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript">
+        tinymce.init({
+            selector: "textarea"
+        });
+    </script>
     <script type="text/javascript" src="/js/colorbox/jquery.colorbox-min.js"></script>
     <script type="text/javascript" src="/js/modals.js"></script>
     <script type="text/javascript" src="/administrator/js/admin.js"></script>

@@ -30,7 +30,7 @@ if (Token::check(Token::generate())) {
             echo 'The reset password link expires after 24 hours, please complete the forgot password form again to receive a new link.';
         }
     } else {
-        echo 'Invalid token';
+        echo 'The link is invalid';
     }
 } else {
     echo 'The token is invalid';

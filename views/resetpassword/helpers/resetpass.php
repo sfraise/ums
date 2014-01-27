@@ -1,3 +1,4 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <?php
 /**
  * Created by PhpStorm.
@@ -10,18 +11,21 @@ session_start();
 // INCLUDE INIT FILE
 include_once $_SERVER['DOCUMENT_ROOT'] . '/core/init.php';
 
+// GET VALUES
 $userid = escape($_POST['userid']);
 $token = escape($_POST['token']);
 $newpass = escape($_POST['newpass']);
 
+// MAKE SURE THE PAGE TOKEN IS VALID
 if (Token::check($token)) {
-// UPDATE THE DATABASE
     try {
+        // SET THE SALT AND HASH
         $salt = Hash::salt(32);
         $hashpass = Hash::make($newpass, $salt);
 
+        // UPDATE THE USER'S PASSWORD AND REMOVE THE RESET TOKEN AND RESET TIME
         $userdata = DB::getInstance();
-        $userdata->query("UPDATE users SET password = '$hashpass', salt = '$salt' WHERE id = $userid");
+        $userdata->query("UPDATE users SET password = '$hashpass', salt = '$salt', reset = NULL, reset_time = NULL WHERE id = $userid");
 
         echo 'The password has been updated';
     } catch (Exception $e) {
@@ -31,3 +35,7 @@ if (Token::check($token)) {
     echo 'The token is invalid';
 }
 ?>
+<script type="text/javascript">
+    // RESET THE PARENT PAGE TOKEN IN ORDER TO VALIDATE ON NEXT TRY
+    $('#token').val('<?php echo Token::generate(); ?>');
+</script>

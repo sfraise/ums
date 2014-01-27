@@ -140,7 +140,6 @@ body {
 
 /*** CONFIG STYLES ***/
 .admin_config {
-    width: 300px;
     margin-top: 15px;
 }
 
@@ -164,6 +163,28 @@ body {
     width: 20px;
     height: 20px;
     padding: 3px;
+}
+
+#admin_config_verify_email {
+    margin-top: 5px;
+}
+
+#admin_config_verify_email_submit {
+    float: right;
+    border: 1px solid #000;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    width: 75px;
+    cursor: pointer;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.admin_config_verify_email_note {
+    float: left;
+    margin-top: 5px;
 }
 
 /*** UPDATE SITE INFO STYLES ***/

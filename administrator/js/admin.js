@@ -72,6 +72,7 @@ $(document).ready(function () {
     // SET VERIFICATION OPTION
     $('#admin_config_verify_button').click(function() {
         var token = $('#token').val();
+        var checked = $('#admin_config_verify_checked').val();
 
         $('#admin_config_veirfy_button').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
         $.ajax({
@@ -80,9 +81,37 @@ $(document).ready(function () {
             data: {token: token},
             success: function (data) {
                 $('#admin_config_verify_button').html(data);
+                if(!checked || checked == 0) {
+                    $('#admin_config_verify_email').show();
+                    $('#admin_config_verify_checked').val('1');
+                } else if(checked == 1) {
+                    $('#admin_config_verify_message').html('');
+                    $('#admin_config_verify_email').hide();
+                    $('#admin_config_verify_checked').val('0');
+                }
             },
             error: function (errorThrown) {
                 $('#admin_config_verify_button').html(errorThrown);
+            }
+        });
+        return false;
+    });
+
+    // SET VERIFICATION EMAIL
+    $('#admin_config_verify_email_submit').click(function() {
+        var token = $('#token').val();
+        var email = $('#admin_config_verify_email_textarea').val();
+
+        $('#admin_config_veirfy_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $.ajax({
+            url: '/administrator/views/config/helpers/verifyemail.php',
+            type: 'POST',
+            data: {token: token},
+            success: function (data) {
+                $('#admin_config_verify_message').html(data);
+            },
+            error: function (errorThrown) {
+                $('#admin_config_verify_message').html(errorThrown);
             }
         });
         return false;
