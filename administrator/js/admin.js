@@ -97,16 +97,17 @@ $(document).ready(function () {
         return false;
     });
 
-    // SET VERIFICATION EMAIL
+    // UPDATE VERIFICATION EMAIL
     $('#admin_config_verify_email_submit').click(function() {
+        tinyMCE.get("admin_config_verify_email_textarea").save();
         var token = $('#token').val();
         var email = $('#admin_config_verify_email_textarea').val();
 
-        $('#admin_config_veirfy_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
+        $('#admin_config_verify_message').html('<img id="ajaxloading" src="/images/loading/loading35.gif" alt="Loading" title="Loading" />');
         $.ajax({
             url: '/administrator/views/config/helpers/verifyemail.php',
             type: 'POST',
-            data: {token: token},
+            data: {token: token, email: email},
             success: function (data) {
                 $('#admin_config_verify_message').html(data);
             },

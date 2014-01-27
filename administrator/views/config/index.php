@@ -18,6 +18,17 @@ if($verify == 0) {
     $ischecked = 'Error';
 }
 
+// GET CURRENT EMAIL
+$verifyemail = $siteinfo->verify_email;
+if(!$verifyemail) {
+    $verifyemail = "
+        [firstname] [lastname],<br /><br />
+        Thank you for joining [sitename]!<br /><br />
+        Please click the link below to activate your account:<br />
+        [activationlink]
+        ";
+}
+
 echo 'Configuration';
 ?>
 
@@ -33,8 +44,7 @@ echo 'Configuration';
         <div style="clear:both;"></div>
         <div id="admin_config_verify_email" style="<?php echo $vedisplay; ?>;">
             <textarea id="admin_config_verify_email_textarea" class="wysiwyg" placeholder="Verification Email">
-                Thank you for joining <?php echo $sitename; ?>,<br /><br />
-                Please click the link below to activate your account:
+                <?php echo $verifyemail; ?>
             </textarea>
             <div class="admin_config_verify_email_note">
                 * Activation link will be embeded at the end of the email
