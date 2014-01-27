@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="Removed .idea">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Restaurant Demo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/js/admin.js" afterPath="$PROJECT_DIR$/administrator/js/admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/config/index.php" afterPath="$PROJECT_DIR$/administrator/views/config/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/submits/login.php" afterPath="$PROJECT_DIR$/helpers/submits/login.php" />
+    <list default="true" id="203c8865-67d4-4959-9e8e-5d42ac742b4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/activate/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/submits/register.php" afterPath="$PROJECT_DIR$/helpers/submits/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/views/config/helpers/verifyemail.php" afterPath="$PROJECT_DIR$/administrator/views/config/helpers/verifyemail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Restaurant Demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,11 +98,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers/submits/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="66" selection-start="4695" selection-end="4695" vertical-scroll-proportion="0.54347825" vertical-offset="1937" max-vertical-offset="3026">
+            <state line="116" column="0" selection-start="3773" selection-end="3874" vertical-scroll-proportion="-15.307693" vertical-offset="1574" max-vertical-offset="3026">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/activate/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="1" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.8521739" vertical-offset="177" max-vertical-offset="884">
+              <folding>
+                <element signature="e#6#88#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/administrator/views/users/helpers/changepass.php" />
         <option value="$PROJECT_DIR$/template/css/style.css" />
         <option value="$PROJECT_DIR$/views/profile/helpers/updateprofile.php" />
         <option value="$PROJECT_DIR$/views/profile/helpers/changepass.php" />
@@ -171,6 +169,7 @@
         <option value="$PROJECT_DIR$/administrator/views/config/index.php" />
         <option value="$PROJECT_DIR$/helpers/submits/login.php" />
         <option value="$PROJECT_DIR$/helpers/submits/register.php" />
+        <option value="$PROJECT_DIR$/views/activate/index.php" />
       </list>
     </option>
   </component>
@@ -236,6 +235,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Restaurant Demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,7 +590,11 @@
       <created>1390804587712</created>
       <updated>1390804587712</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Finished account activation/verification email and login check">
+      <created>1390854760954</created>
+      <updated>1390854760954</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,19 +646,13 @@
     <MESSAGE value="Updated sql file and added .gitignore file" />
     <MESSAGE value="Updated .gitignore to ignore phpstorm .idea files" />
     <MESSAGE value="Removed .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed .idea" />
+    <MESSAGE value="Finished account activation/verification email and login check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished account activation/verification email and login check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/administrator/template/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="20" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.0" vertical-offset="2615" max-vertical-offset="6596">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="28" selection-start="388" selection-end="388" vertical-scroll-proportion="0.8547486" vertical-offset="0" max-vertical-offset="748">
@@ -767,8 +782,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/submits/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="66" selection-start="4695" selection-end="4695" vertical-scroll-proportion="0.54347825" vertical-offset="1937" max-vertical-offset="3026">
+        <state line="116" column="0" selection-start="3773" selection-end="3874" vertical-scroll-proportion="-15.307693" vertical-offset="1574" max-vertical-offset="3026">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/activate/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="1" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.8521739" vertical-offset="177" max-vertical-offset="884">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
